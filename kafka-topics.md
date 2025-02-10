@@ -19,8 +19,8 @@ Kafka Topics - Warning
 
 Unlike database tables, Kafka topics are not query-able. Instead, we have to create Kafka producers to send data to the topic and Kafka consumers to read the data from the topic in order.
 
-[!WARNING]
-Test
+> [!WARNING]
+> Critical content demanding immediate user attention due to potential risks.
 
 Data in Kafka topics is deleted after one week by default (also called the default message retention period), and this value is configurable. This mechanism of deleting old data ensures a Kafka cluster does not run out of disk space by recycling topics over time.
 
