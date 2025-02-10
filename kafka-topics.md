@@ -37,9 +37,9 @@ Topic Partitions
 
 The offset is an integer value that Kafka adds to each message as it is written into a partition. Each message in a given partition has a unique offset.
 
-Kafka Topics
-
-Kafka topics are **immutable**: once data is written to a partition, it cannot be changed
+> [!TIP]  
+> Kafka Topics
+> Kafka topics are **immutable**: once data is written to a partition, it cannot be changed
 
 Kafka Topic example
 -------------------
@@ -59,8 +59,8 @@ What are Kafka Offsets?
 
 Apache Kafka offsets represent the position of a message within a Kafka Partition. Offset numbering for every partition starts at `0` and is incremented for each message sent to a specific Kafka partition. This means that Kafka offsets only have a meaning for a specific partition, e.g., offset 3 in partition 0 doesn’t represent the same data as offset 3 in partition 1.
 
-Kafka Offset Ordering
-
-If a topic has more than one partition, Kafka guarantees the order of messages within a partition, but there is no ordering of messages across partitions.
+> [!TIP]  
+> Kafka Offset Ordering
+> If a topic has more than one partition, Kafka guarantees the order of messages within a partition, but there is no ordering of messages across partitions.
 
 Even though we know that messages in Kafka topics are deleted over time (as seen above), the offsets are not re-used. They continually are incremented in a never-ending sequence.
