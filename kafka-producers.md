@@ -78,9 +78,10 @@ Message Serialization
 
 As part of the Java Client SDK for Apache Kafka, [several serializers already exist](https://github.com/a0x8o/kafka/tree/master/clients/src/main/java/org/apache/kafka/common/serialization), such as string (which supersedes JSON), integer, float. Other serializers may have to be written by the users, but commonly distributed Kafka serializers exist and are efficiently written for formats such as [JSON-Schema](https://github.com/confluentinc/schema-registry/blob/master/json-schema-serializer/src/main/java/io/confluent/kafka/serializers/json/KafkaJsonSchemaSerializer.java), [Apache Avro](https://github.com/confluentinc/schema-registry/blob/master/avro-serializer/src/main/java/io/confluent/kafka/serializers/KafkaAvroSerializer.java) and [Protobuf](https://github.com/confluentinc/schema-registry/blob/master/protobuf-serializer/src/main/java/io/confluent/kafka/serializers/protobuf/KafkaProtobufSerializer.java), thanks to the Confluent Schema Registry.
 
-Serialization Support
-
-If you are not using a JVM-based programming language for serialization and deserialization, ensure that your Kafka client library supports the data formats that you need!
+> [!TIP]
+> **Serialization Support**
+>
+> If you are not using a JVM-based programming language for serialization and deserialization, ensure that your Kafka client library supports the data formats that you need!
 
 For the curious: Kafka Message Key Hashing
 ------------------------------------------
@@ -95,9 +96,10 @@ Default Partitioner
 
 In that effect, it is common for partitioners to leverage the Kafka message keys to route a message into a specific topic-partition. As a reminder, all messages with the same key will go to the same partition.
 
-Kafka Key Hashing
-
-**Key Hashing** is the process of determining the mapping of a key to a partition.
+> [!TIP]
+> **Kafka Key Hashing**
+>
+> **Key Hashing** is the process of determining the mapping of a key to a partition.
 
 In the default Kafka partitioner, the keys are hashed using the **murmur2 algorithm,** with the formula below for the curious:
 
