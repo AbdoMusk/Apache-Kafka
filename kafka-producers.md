@@ -101,8 +101,8 @@ Kafka Key Hashing
 
 In the default Kafka partitioner, the keys are hashed using the **murmur2 algorithm,** with the formula below for the curious:
 
-[](javascript:void(0);)
-
-`1` `targetPartition = Math.abs(Utils.murmur2(keyBytes)) % (numPartitions - 1)`
+```
+targetPartition = Math.abs(Utils.murmur2(keyBytes)) % (numPartitions - 1)
+```
 
 It is possible to override the default partitioner via the producer property `partitioner.class`, although it is not advisable unless you know what you are doing.
