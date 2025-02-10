@@ -47,9 +47,11 @@ Please follow the instructions [here](https://docs.aws.amazon.com/corretto/lates
 
 Upon completion, you should get a similar output when doing `java -version`:
 
-[](javascript:void(0);)
-
-`1 2 3` `openjdk version "11.0.10" 2021-01-19 LTS OpenJDK Runtime Environment Corretto-11.0.10.9.1 (build 11.0.10+9-LTS) OpenJDK 64-Bit Server VM Corretto-11.0.10.9.1 (build 11.0.10+9-LTS, mixed mode)shell`
+```
+openjdk version "11.0.10" 2021-01-19 LTS
+OpenJDK Runtime Environment Corretto-11.0.10.9.1 (build 11.0.10+9-LTS)
+OpenJDK 64-Bit Server VM Corretto-11.0.10.9.1 (build 11.0.10+9-LTS, mixed mode)shell
+```
 
 ### Install Apache Kafka on Mac OS X
 
@@ -112,7 +114,9 @@ This ensures that you can now run the kafka commands without prefixing them.
 
 After reloading your terminal, the following should work from any directory
 
-`1` `kafka-topics.sh`
+```
+kafka-topics.sh
+```
 
 ### Optional: Changing the Kafka and Zookeeper data storage directory
 
