@@ -1,6 +1,9 @@
-Beginner
+Kafka Topics
+============
 
-Advanced
+Kafka Topics, Partitions, and Offsets
+
+* * *
 
 What is a Kafka Topic?
 ----------------------

@@ -115,7 +115,7 @@ Start Apache Kafka
 ~/kafka_2.13-2.8.1/bin/kafka-server-start.sh ~/kafka_2.13-2.8.1/config/server.properties
 ```
 
-![Screenshot showing Kafka launching on Linux](/kafka/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fo12xgu4mepom%2F4iGqOHNft8UEuFyK2fNWEZ%2F0de588527d2de84f43175e5202d55eee%2FScreen_Shot_2022-01-06_at_18.48.05__2_.png&w=3840&q=75 "Starting Apache Kafka on Linux")
+![Screenshot showing Kafka launching on Linux](../static/images/Screen_Shot_2022-01-06_at_18.webp "Starting Apache Kafka on Linux")
 
 Ensure to keep both shell windows opened, otherwise you will shut down Kafka or Zookeeper.
 
