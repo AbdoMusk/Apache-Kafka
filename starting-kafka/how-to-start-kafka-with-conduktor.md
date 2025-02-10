@@ -14,7 +14,9 @@ How does it work in Desktop?
 
 [](#How-does-it-work-in-Desktop?-0)
 
-[](https://videos.ctfassets.net/o12xgu4mepom/1XGOwXEtKrAOMrGUYtzidp/c6e616b9b7dc5847e4c6b4f8a9776306/Start_Kafka_clusters_in_seconds_with_Conduktor.mp4)
+[![Watch the video](../static/images/videoframe_0.png)](https://videos.ctfassets.net/o12xgu4mepom/1XGOwXEtKrAOMrGUYtzidp/c6e616b9b7dc5847e4c6b4f8a9776306/Start_Kafka_clusters_in_seconds_with_Conduktor.mp4)
+
+
 
 Installing Kafka Binaries
 -------------------------
