@@ -34,7 +34,7 @@ It has been noted as part of KIP-500 that the metadata of Kafka itself is a log 
 
 Removing Zookeeper means that Kafka must still act as a quorum to perform controller election and therefore the Kafka brokers implement the [Raft protocol](https://cwiki.apache.org/confluence/display/KAFKA/KIP-595%3A+A+Raft+Protocol+for+the+Metadata+Quorum) thus giving the name KRaft to the new Kafka Metadata Quorum mode.
 
-![Diagram showing the difference between Kafka with Zookeeper and Kafka in KRaft mode with Quorum Controller.](./static/images/Kafka_KRaft_Mode_1.webp "Kafka KRaft Mode - Zookeeper vs Quorum Controller")
+![Diagram showing the difference between Kafka with Zookeeper and Kafka in KRaft mode with Quorum Controller.](../static/images/Kafka_KRaft_Mode_1.webp "Kafka KRaft Mode - Zookeeper vs Quorum Controller")
 
 Without Zookeeper, the following benefits are observed in Kafka:
 

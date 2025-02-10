@@ -23,7 +23,7 @@ An ensemble of Kafka brokers working together is called a Kafka cluster. Some cl
 
 A broker in a cluster is identified by a unique numeric ID. In the figure below, the Kafka cluster is made up of three Kafka brokers.
 
-![Diagram showing a Kafka cluster with multiple Kafka brokers.](./static/images/Kafka_Brokers_1.webp "Apache Kafka Cluster with multiple brokers")
+![Diagram showing a Kafka cluster with multiple Kafka brokers.](../static/images/Kafka_Brokers_1.webp "Apache Kafka Cluster with multiple brokers")
 
 Kafka Cluster
 
@@ -36,7 +36,7 @@ Kafka brokers store data in a directory on the server disk they run on. Each top
 
 To achieve high throughput and scalability on topics, Kafka topics are partitioned. If there are multiple Kafka brokers in a cluster, then partitions for a given topic will be distributed among the brokers evenly, to achieve load balancing and scalability.
 
-![3 Kafka Brokers with 2 Kafka Topics and topic partitions.](./static/images/Kafka_Brokers_2.webp "Apache Kafka Topic Partitions")
+![3 Kafka Brokers with 2 Kafka Topics and topic partitions.](../static/images/Kafka_Brokers_2.webp "Apache Kafka Topic Partitions")
 
 Kafka Topic Partitions
 
@@ -55,7 +55,7 @@ A client that wants to send or receive messages from the Kafka cluster **may con
 
 The bootstrap server will return metadata to the client that consists of a list of all the brokers in the cluster. Then, when required, the client will know which exact broker to connect to to send or receive data, and accurately find which brokers contain the relevant topic-partition.
 
-![Connecting to a Kafka Cluster (Bootstrap Server) diagram. Process for connecting to a Kafka broker within an Apache Kafka cluster.](./static/images/Kafka_Brokers_3.webp "How to Connect to a Kafka Cluster")
+![Connecting to a Kafka Cluster (Bootstrap Server) diagram. Process for connecting to a Kafka broker within an Apache Kafka cluster.](../static/images/Kafka_Brokers_3.webp "How to Connect to a Kafka Cluster")
 
 Connecting to a Kafka Cluster
 

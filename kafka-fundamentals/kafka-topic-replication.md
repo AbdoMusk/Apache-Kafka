@@ -28,13 +28,13 @@ The replication factor is a topic setting and is specified at topic creation tim
 
 In the cluster below consisting of three brokers, the replication factor is `2`. When a message is written down into _Partition 0_ of _Topic-A_ in _Broker 101_, it is also written down into _Broker 102_ because it has _Partition 0_ as a replica.
 
-![Diagram showing a default Apache Kafka Replication Factor of 2 distributing messages across 3 different Kafka Brokers.](./static/images/Kafka_Topic_Replication_1.webp "Kafka Topic Replication")
+![Diagram showing a default Apache Kafka Replication Factor of 2 distributing messages across 3 different Kafka Brokers.](../static/images/Kafka_Topic_Replication_1.webp "Kafka Topic Replication")
 
 Kafka Topic Replication
 
 Thanks to a replication factor of 2, we can withstand the failure of one broker. This means that if _Broker 102_ failed, as you see below, _Broker 101 & 103_ would still have the data.
 
-![Diagram showing how Kafka Topic Replication provides resilience when a Kafka Broker fails.](./static/images/Kafka_Topic_Replication_2.webp "Kafka Topic Replication with Broker Failure")
+![Diagram showing how Kafka Topic Replication provides resilience when a Kafka Broker fails.](../static/images/Kafka_Topic_Replication_2.webp "Kafka Topic Replication with Broker Failure")
 
 Kafka Broker Failure
 
@@ -54,7 +54,7 @@ What are In-Sync Replicas (ISR)?
 
 An ISR is a replica that is up to date with the leader broker for a partition. Any replica that is not up to date with the leader is out of sync.
 
-![Kafka Topic Replication relies on leader selection and the creation of in-sync replicas (ISR). This diagram shows the Kafka replication process across 3 brokers.](./static/images/Kafka_Topic_Replication_3.webp "Kafka Topic Replication & In-Sync Replicas")
+![Kafka Topic Replication relies on leader selection and the creation of in-sync replicas (ISR). This diagram shows the Kafka replication process across 3 brokers.](../static/images/Kafka_Topic_Replication_3.webp "Kafka Topic Replication & In-Sync Replicas")
 
 Leaders & In-Sync Replicas
 
@@ -85,7 +85,7 @@ Kafka producers must also specify a level of acknowledgment `acks` to specify if
 
 When `acks=0` producers consider messages as "written successfully" the moment the message was sent without waiting for the broker to accept it at all.
 
-![Illustration of Kafka Producer acks Setting set to 0. This 'fire-and-forget' approach is only useful for scenarios where it is OK to potentially lose messages or data.](./static/images/Adv_Producer_Acks_DD_1.webp "Apache Kafka Producer acks Settings = 0")
+![Illustration of Kafka Producer acks Setting set to 0. This 'fire-and-forget' approach is only useful for scenarios where it is OK to potentially lose messages or data.](../static/images/Adv_Producer_Acks_DD_1.webp "Apache Kafka Producer acks Settings = 0")
 
 acks = 0
 
@@ -97,7 +97,7 @@ If the broker goes offline or an exception happens, we won’t know and will los
 
 When `acks=1` , producers consider messages as "written successfully" when the message was acknowledged by only the leader.
 
-![Overview of process when the Kafka Producer acks Setting is set to 1. The message receipt is only acknowledged by the leader in the Kafka replication setup.](./static/images/Adv_Producer_Acks_DD_2.webp "Kafka Producer acks Setting = 1")
+![Overview of process when the Kafka Producer acks Setting is set to 1. The message receipt is only acknowledged by the leader in the Kafka replication setup.](../static/images/Adv_Producer_Acks_DD_2.webp "Kafka Producer acks Setting = 1")
 
 acks = 1
 
@@ -109,7 +109,7 @@ Leader response is requested, but replication is not a guarantee as it happens i
 
 When `acks=all`, producers consider messages as "written successfully" when the message is accepted by all in-sync replicas (ISR).
 
-![Diagram showing process when the Kafka producer acks setting is set to 'all'. The message is acknowledged by all in-sync replicas.](./static/images/Adv_Producer_Acks_DD_3.webp "Kafka Producer acks Setting = all")
+![Diagram showing process when the Kafka producer acks setting is set to 'all'. The message is acknowledged by all in-sync replicas.](../static/images/Adv_Producer_Acks_DD_3.webp "Kafka Producer acks Setting = all")
 
 acks = all
 
@@ -119,7 +119,7 @@ The`min.insync.replicas` can be configured both at the topic and the broker-leve
 
 If you would like to be sure that committed data is written to more than one replica, you need to set the minimum number of in-sync replicas to a higher value. If a topic has three replicas and you set `min.insync.replicas` to `2`, then you can only write to a partition in the topic if at least two out of the three replicas are in-sync. When all three replicas are in-sync, everything proceeds normally. This is also true if one of the replicas becomes unavailable. However, if two out of three replicas are not available, the brokers will no longer accept produce requests. Instead, producers that attempt to send data will receive `NotEnoughReplicasException`.
 
-![Diagram showing how Kafka Topic Replication, ISR and Producer acks settings combine to provide robust message safety even when 2 out of 3 brokers fail.](./static/images/Adv_Producer_Acks_DD_4.webp "Kafka Topic Replication, Producer acks settings and ISR for Message Safety")
+![Diagram showing how Kafka Topic Replication, ISR and Producer acks settings combine to provide robust message safety even when 2 out of 3 brokers fail.](../static/images/Adv_Producer_Acks_DD_4.webp "Kafka Topic Replication, Producer acks settings and ISR for Message Safety")
 
 Kafka Topic Replication, ISR & Message Safety
 
@@ -161,13 +161,13 @@ Kafka Consumers Replicas Fetching
 
 Kafka consumers read by default from the partition leader.
 
-![Diagram showing how Kafka consumers typically read from the topic partition leader](./static/images/Kafka_Topic_Partition_Leader__1_.webp "Kafka Topic Partition Leader")
+![Diagram showing how Kafka consumers typically read from the topic partition leader](../static/images/Kafka_Topic_Partition_Leader__1_.webp "Kafka Topic Partition Leader")
 
 But since Apache Kafka 2.4, it is possible to configure consumers to read from in-sync replicas instead (usually the closest).
 
 Reading from the closest in-sync replicas (ISR) may improve the request latency, and also decrease network costs, because in most cloud environments cross-data centers network requests incur charges.
 
-![Diagram showing the Kafka Consumers replica fetching process in Apache Kafka](./static/images/Kafka_Consumers_Replica_Fetching.webp "Kafka Consumers Replica Fetching")
+![Diagram showing the Kafka Consumers replica fetching process in Apache Kafka](../static/images/Kafka_Consumers_Replica_Fetching.webp "Kafka Consumers Replica Fetching")
 
 Preferred leader
 ----------------

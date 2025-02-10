@@ -20,7 +20,7 @@ A topic usually consists of many partitions. These partitions are a unit of para
 
 The benefit of leveraging a Kafka consumer group is that the consumers within the group will coordinate to split the work of reading from different partitions.
 
-![Apache Kafka Consumer Group diagram showing how a consumer group reads messages from a Kafka topic with 5 partitions.](./static/images/Consumer_Group_reading_from_topic_with_5_partitions.webp "Kafka Consumer Group reading from topic with 5 partitions")
+![Apache Kafka Consumer Group diagram showing how a consumer group reads messages from a Kafka topic with 5 partitions.](../static/images/Consumer_Group_reading_from_topic_with_5_partitions.webp "Kafka Consumer Group reading from topic with 5 partitions")
 
 Kafka Consumer Group ID
 -----------------------
@@ -33,19 +33,19 @@ Kafka Consumers automatically use a `GroupCoordinator` and a `ConsumerCoordinato
 
 It is important to note that each topic partition is only assigned to one consumer within a consumer group, but a consumer from a consumer group can be assigned multiple partitions.
 
-![Apache Kafka Consumer Group diagram showing how a consumer group reads messages from a Kafka topic with 5 partitions.](./static/images/Consumer_Group_reading_from_topic_with_5_partitions.webp "Kafka Consumer Group reading from topic with 5 partitions")
+![Apache Kafka Consumer Group diagram showing how a consumer group reads messages from a Kafka topic with 5 partitions.](../static/images/Consumer_Group_reading_from_topic_with_5_partitions.webp "Kafka Consumer Group reading from topic with 5 partitions")
 
 In the example above, _Consumer 1_ of consumer group _consumer-group-application-1_ has been assigned _Partition 0_ and _Partition 1_, whereas _Consumer 2_ is assigned _Partition 2_ and _Partition 3_, and finally _Consumer 3_ is assigned _Partition 4_. Only _Consumer 1_ receives messages from _Partition 0_ and _Partition 1_, while only consumer _Consumer 2_ receives messages from _Partition 2 and 3,_ and only _Consumer 3_ receives messages from _Partition 4_.
 
 Each of your applications (that may be composed of many consumers) reading from Kafka topics must specify a different `group.id`. That means that multiple applications (consumer groups) can consume from the same topic at the same time:
 
-![Diagram showing consumers within a consumer group reading messages from different topic partitions.](./static/images/Kafka_Consumer_Groups_1.webp "Kafka Consumer Groups & Topics")
+![Diagram showing consumers within a consumer group reading messages from different topic partitions.](../static/images/Kafka_Consumer_Groups_1.webp "Kafka Consumer Groups & Topics")
 
 Kafka Consumer Groups
 
 If there are more consumers than the number of partitions of a topic, then some consumers will remain inactive as shown below. Usually, we have as many consumers in a consumer group as the number of partitions. If we want more consumers for higher throughput, we should create more partitions while creating the topic. Otherwise, some of the consumers may remain inactive.
 
-![Diagram shows Consumer in a Kafka Consumer Group inactive when there are more consumers than partitions.](./static/images/Kafka_Consumer_Groups_2.webp "Kafka Consumer Groups & Consumer Inactivity")
+![Diagram shows Consumer in a Kafka Consumer Group inactive when there are more consumers than partitions.](../static/images/Kafka_Consumer_Groups_2.webp "Kafka Consumer Groups & Consumer Inactivity")
 
 More consumers than partitions
 
@@ -64,7 +64,7 @@ Therefore, in order to "checkpoint" how far a consumer has been reading into a t
 
 In the figure below, a consumer from the consumer group has consumed messages up to offset `4262`, so the consumer offset is set to `4262`.
 
-![Diagram showing how Kafka Consumers from a Consumer Group read messages from the last committed consumer offset.](./static/images/Kafka_Consumer_Groups_3_2x.webp "Kafka Consumer Groups & Committed Offsets")
+![Diagram showing how Kafka Consumers from a Consumer Group read messages from the last committed consumer offset.](../static/images/Kafka_Consumer_Groups_3_2x.webp "Kafka Consumer Groups & Committed Offsets")
 
 Consumer Offset
 

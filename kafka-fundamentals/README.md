@@ -9,7 +9,7 @@ We have learned about data event streaming, Apache Kafka and its various compone
 
 Now, we will dive in and learn how each part of Apache Kafka works.
 
-![Apache Kafka clusters are made up of several core components. This diagrams shows the relationships between brokers, zookeeper, producers, consumers, source systems and target systems.](./static/images/Kafka_Cluster__-_Fundamentals.webp "Apache Kafka Cluster - Components")
+![Apache Kafka clusters are made up of several core components. This diagrams shows the relationships between brokers, zookeeper, producers, consumers, source systems and target systems.](../static/images/Kafka_Cluster__-_Fundamentals.webp "Apache Kafka Cluster - Components")
 
 Apache Kafka Components
 

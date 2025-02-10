@@ -18,7 +18,7 @@ Applications that read data from Kafka topics are known as consumers. Applicatio
 
 Consumers can read from one or more partitions at a time in Apache Kafka, and data is read in order **within each partition** as shown below.
 
-![Kafka consumers in this diagram are reading messages from various Apache Kafka Brokers and Topics.](./static/images/Kafka_Consumers_1.webp "Kafka Consumers ")
+![Kafka consumers in this diagram are reading messages from various Apache Kafka Brokers and Topics.](../static/images/Kafka_Consumers_1.webp "Kafka Consumers ")
 
 Kafka Consumers
 
@@ -49,7 +49,7 @@ As we have seen before, the data sent by the Kafka producers is [serialized](/ka
 *   if the producer serialized an `Integer` using `IntegerSerializer`, the consumer must deserialize it using `IntegerDeserializer`
     
 
-![Kafka Consumers must use the same format for deserialization that was used by the producer when serializing the message. This daigram shows the deserialization process.](./static/images/Kafka_Consumers_2.webp "Apache Kafka Consumers and Message Deserializatrion")
+![Kafka Consumers must use the same format for deserialization that was used by the producer when serializing the message. This daigram shows the deserialization process.](../static/images/Kafka_Consumers_2.webp "Apache Kafka Consumers and Message Deserializatrion")
 
 Deserialization
 

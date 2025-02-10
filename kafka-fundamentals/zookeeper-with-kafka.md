@@ -47,7 +47,7 @@ Zookeeper is used for metadata management in the Kafka world. For example:
 
 A Zookeeper cluster is called an _ensemble_. It is recommended to operate the ensemble with an odd number of servers, e.g., 3, 5, 7, as a strict majority of ensemble members (a quorum) must be working in order for Zookeeper to respond to requests. Zookeeper has a leader to handle writes, the rest of the servers are followers to handle reads.
 
-![alt text](./static/images/Zookeeper_with_Kafka_1.webp "Zookeeper with Kafka 1")
+![alt text](../static/images/Zookeeper_with_Kafka_1.webp "Zookeeper with Kafka 1")
 
 Zookeeper in Kafka
 

@@ -11,7 +11,7 @@ Similar to how databases have tables to organize and segment datasets, Kafka use
 
 A topic is identified by its name. For example, we may have a topic called **logs** that may contain log messages from our application, and another topic called **purchases** that may contain purchase data from our application as it happens.
 
-![A Kafka Cluster with 4 Topics shown in a diagram](./static/images/Apache_Kafka_Cluster_with_4_topics.webp "Apache Kafka Topics in a Cluster")
+![A Kafka Cluster with 4 Topics shown in a diagram](../static/images/Apache_Kafka_Cluster_with_4_topics.webp "Apache Kafka Topics in a Cluster")
 
 Kafka topics can contain any kind of message in any format, and the sequence of all these messages is called a data stream.
 
@@ -31,7 +31,7 @@ Topics are broken down into a number of partitions. A single topic may have more
 
 The number of partitions of a topic is specified at the time of topic creation. Partitions are numbered starting from `0` to `N-1`, where `N` is the number of partitions. The figure below shows a topic with three partitions, with messages being appended to the end of each one.
 
-![Kafka Topics are broken into partitions for improved fault tolerance. This diagram shows a Kafka Topic with 3 partitions and their respective offsets.](./static/images/Kafka_Topics_1.webp "Apache Kafka Topic Partitions")
+![Kafka Topics are broken into partitions for improved fault tolerance. This diagram shows a Kafka Topic with 3 partitions and their respective offsets.](../static/images/Kafka_Topics_1.webp "Apache Kafka Topic Partitions")
 
 Topic Partitions
 
@@ -47,7 +47,7 @@ Kafka Topic example
 
 [](#Kafka-Topic-example-2)
 
-![Apache Kafka has many real world applications. This diagram shows how Apache Kafka can be used for fleet tracking in the transport industry.](./static/images/Kafka_Topics_2.webp "Apache Kafka for Fleet Tracking")
+![Apache Kafka has many real world applications. This diagram shows how Apache Kafka can be used for fleet tracking in the transport industry.](../static/images/Kafka_Topics_2.webp "Apache Kafka for Fleet Tracking")
 
 Using Apache Kafka for Fleet Tracking
 

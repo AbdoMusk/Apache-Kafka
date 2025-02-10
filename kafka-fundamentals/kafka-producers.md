@@ -14,7 +14,7 @@ Kafka Producers
 
 Applications that send data into topics are known as Kafka producers. Applications typically integrate a Kafka client library to write to Apache Kafka. Excellent client libraries exist for almost [all programming languages](/kafka/kafka-sdk-list/) that are popular today including Python, Java, Go, and others.
 
-![Apache Kafka Producers send data into Kafka. These messages are then routed by the broker to the relevant topics and partitions.](./static/images/Kafka_Producers_1.webp "Apache Kafka Producer")
+![Apache Kafka Producers send data into Kafka. These messages are then routed by the broker to the relevant topics and partitions.](../static/images/Kafka_Producers_1.webp "Apache Kafka Producer")
 
 A Kafka producer sends messages to a topic, and messages are distributed to partitions according to a mechanism such as key hashing (more on it below).
 
@@ -33,7 +33,7 @@ In case the key (`key=null`) is not specified by the producer, messages are dist
 
 Kafka message keys are commonly used when there is a need for message ordering for all messages sharing the same field. For example, in the scenario of tracking trucks in a fleet, we want data from trucks to be in order at the individual truck level. In that case, we can choose the key to be `truck_id`. In the example shown below, the data from the truck with id _truck\_id\_123_ will always go to partition _p0._
 
-![Apache Kafka Producer sending trucking fleet data into 2 Kafka Brokers. ](./static/images/Kafka_Producers_2.webp "Apache Kafka Producer - Fleet Example")
+![Apache Kafka Producer sending trucking fleet data into 2 Kafka Brokers. ](../static/images/Kafka_Producers_2.webp "Apache Kafka Producer - Fleet Example")
 
 Messages with Keys
 
@@ -46,7 +46,7 @@ Kafka Message Anatomy
 
 Kafka messages are created by the producer. A Kafka message consists of the following elements:
 
-![Diagram showing how Kafka Producers structure a message created by the Apache Kafka Producer.](./static/images/Kafka_Producers_3.webp "Kafka Producers - The structure of a Kafka Message")
+![Diagram showing how Kafka Producers structure a message created by the Apache Kafka Producer.](../static/images/Kafka_Producers_3.webp "Kafka Producers - The structure of a Kafka Message")
 
 Structure of a Kafka Message
 
@@ -72,7 +72,7 @@ In many programming languages, the key and value are represented as objects, whi
 
 As shown below, we have a message with an `Integer` key and a `String` value. Since the key is an integer, we have to use an `IntegerSerializer` to convert it into a byte array. For the value, since it is a string, we must leverage a `StringSerializer`.
 
-![Message serialization diagram showing how Apache Kafka Producers integer and string serializers.](./static/images/Kafka_Producers_4.webp "Apache Kafka Producers and Message Serialization")
+![Message serialization diagram showing how Apache Kafka Producers integer and string serializers.](../static/images/Kafka_Producers_4.webp "Apache Kafka Producers and Message Serialization")
 
 Message Serialization
 
@@ -90,7 +90,7 @@ For the curious: Kafka Message Key Hashing
 
 A Kafka partitioner is a code logic that takes a record and determines to which partition to send it into.
 
-![Kafka Producers use default partitioning logic to assign Kafka Messages to the appropriate Apache Kafka Partition.](./static/images/Kafka_Producers_5.webp "Apache Kafka Producers and Default Partitioning")
+![Kafka Producers use default partitioning logic to assign Kafka Messages to the appropriate Apache Kafka Partition.](../static/images/Kafka_Producers_5.webp "Apache Kafka Producers and Default Partitioning")
 
 Default Partitioner
 
