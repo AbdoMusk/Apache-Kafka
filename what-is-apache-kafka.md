@@ -39,7 +39,7 @@ A typical business collects data through a variety of applications, e.g., accoun
 
 These direct integrations can result in a complicated solution as shown below.
 
-![Apache Kafka helps to solve many of the challenges associated with the integration of data from multiple different systems. This diagram shows how complex the flow of data can be when systems are not decoupled.](/kafka/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fo12xgu4mepom%2F15MPdLa9Vh84mmRt8stbU0%2Fb6c1edfc8d23b88e63a06f89c2b2e1af%2FWhat_is_Apache_Kafka_Part_1_-_Data_Integration_Challenges.png&w=3840&q=75 "What is Apache Kafka Part 1 - Data Integration Challenges")
+![Apache Kafka helps to solve many of the challenges associated with the integration of data from multiple different systems. This diagram shows how complex the flow of data can be when systems are not decoupled.](./static/images/What_is_Apache_Kafka_Part_1_-_Data_Integration_Challenges.webp "What is Apache Kafka Part 1 - Data Integration Challenges")
 
 Each integration comes with difficulties around
 
@@ -61,7 +61,7 @@ Apache Kafka allows us to decouple data streams and systems.
 
 With Apache Kafka as a data integration layer, data sources will publish their data to Apache Kafka and the target systems will source their data from Apache Kafka. This decouples source data streams and target systems allowing for a simplified data integration solution, as you can see in the diagram below.
 
-![Apache Kafka provides an effective way for organisations to overcome data integration challenges by making it easy to decouple different systems](./static/images/What_is_Apache_Kafka_Part_1_-_Data_Integration_Challenges.webp "What is Apache Kafka Part 1 - Decoupling Different Data Systems")
+![Apache Kafka provides an effective way for organisations to overcome data integration challenges by making it easy to decouple different systems](./static/images/What_is_Apache_Kafka_Part_1_-_Decoupling_Different_Data_Systems.webp "What is Apache Kafka Part 1 - Decoupling Different Data Systems")
 
 What is a data stream in Apache Kafka?
 --------------------------------------
@@ -74,7 +74,7 @@ Each of the applications in an organization where data is created is a potential
 
 Apache Kafka is used to store these data streams (also called topics), which then allows systems to perform stream processing - an act of performing continual calculations on a potentially endless and constantly evolving source of data. Once the stream is processed and stored in Apache Kafka, it may be transferred to another system, e.g., a database.
 
-![Apache Kafka allows for data from various different business applications and sources to flow into a real-time data pipeline that can process millions of events per second.](/kafka/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fo12xgu4mepom%2FZm4Nu6YFkYuZrBoALR2yw%2F4f2063a4c2d070d0cf0a9f56b1624e64%2FWhat_is_Apache_Kafka_Part_1_-_Use_Cases_and_Applications.png&w=3840&q=75 "What is Apache Kafka Part 1 - Use Cases & Applications")
+![Apache Kafka allows for data from various different business applications and sources to flow into a real-time data pipeline that can process millions of events per second.](./static/images/What_is_Apache_Kafka_Part_1_-_Use_Cases_and_Applications "What is Apache Kafka Part 1 - Use Cases & Applications")
 
 Examples of Data streams
 ------------------------
@@ -171,7 +171,7 @@ Part 2: Definition of Core Apache Kafka Concepts
 
 Now that we've learned about Apache Kafka at a high level, let's dive in and learn how to use the tool. In this part, we will cover the basics of Kafka topics, producers, and consumers.
 
-![Apache Kafka Components. An overview of the relationship between Kafka clusters, Kafka topics, Kafka producers and Kafka Consumers.](/kafka/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fo12xgu4mepom%2FQkJT6m1g757P2O8raCds9%2F86348e6428ae350bf1af6c521a153af6%2FProducer_-_Topic_-_Consumer.png&w=3840&q=75 "What is Apache Kafka - Producers, Topics and Consumers")
+![Apache Kafka Components. An overview of the relationship between Kafka clusters, Kafka topics, Kafka producers and Kafka Consumers.](./static/images/Producer_-_Topic_-_Consumer.webp "What is Apache Kafka - Producers, Topics and Consumers")
 
 What is a Kafka Topic?
 ----------------------
@@ -231,7 +231,7 @@ For example, let's assume we are having a Kafka topic named `twitter_tweets` tha
 *   Combine the two to get trending topics and hashtags in real-time!
     
 
-![An illustrated example of how Apache Kafka and Kafka Streams can support stream processing applications for real-time analytics and other use cases.](/kafka/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fo12xgu4mepom%2F4b8gsdqsa7FUaToJDhXV3z%2F282c99832af414d02cf31ea70e8a7fb0%2FApache_Kafka___Kafka_Streams_-_Stream_Processing_Example.png&w=3840&q=75 "Apache Kafka Stream Processing Example")
+![An illustrated example of how Apache Kafka and Kafka Streams can support stream processing applications for real-time analytics and other use cases.](./static/images/Apache_Kafka___Kafka_Streams_-_Stream_Processing_Example.webp "Apache Kafka Stream Processing Example")
 
 In order to perform topic-level transformation within Apache Kafka, we can use streaming libraries that are meant for this use case instead of writing very complicated producer & consumer code.
 
@@ -253,7 +253,7 @@ Examples of popular Kafka Connectors include:
 *   **Kafka Connect Sink Connectors (consumers):** S3, ElasticSearch, HDFS, JDBC, SAP HANA, DocumentDB, Cassandra, DynamoDB, HBase, MongoDB, Redis, Solr, Splunk, Twitter
     
 
-![An overview of how Apache Kafka with Kafka Connect helps to stream data between sources and sinks.](/kafka/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fo12xgu4mepom%2F6Pn6OyroXP2NupnLeuri5q%2F6f42c56d3404ec820793684f290ff9ba%2FSource_Connector_-__Sink_Connector.png&w=3840&q=75 "Kafka Connect - Sources & Sinks")
+![An overview of how Apache Kafka with Kafka Connect helps to stream data between sources and sinks.](./static/images/Source_Connector_-__Sink_Connector.webp "Kafka Connect - Sources & Sinks")
 
 What is the Schema Registry?
 ----------------------------
@@ -275,7 +275,7 @@ What is Conduktor?
 
 [The Conduktor Platform](https://www.conduktor.io) is a complete, end-to-end solution for Kafka development, encompassing Kafka management, testing, monitoring, data quality, and data governance. It allows developers to interact with the entire Kafka ecosystem such as Brokers, Topics, Consumers, Producers, Kafka Connect, and Confluent Schema Registry.
 
-![](/kafka/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fo12xgu4mepom%2F5EejiMKgxBEb7EiGjZ8iLW%2Fc81a16d54de8b54c353de4198ff71b98%2Fplatform-switch.png&w=3840&q=75 "platform-switch")
+![](./static/images/platform-switch.webp "platform-switch")
 
 Conduktor Platform
 
@@ -288,7 +288,7 @@ ksqlDB is a stream processing database that provides a SQL-like interface to tra
 
 Behind the scenes, the ksqlDB webserver translates the SQL commands into a series of Kafka Streams applications.
 
-![An illustrated overview of how ksqlDB works with Apache Kafka](/kafka/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fo12xgu4mepom%2F1Orw7aN26Sse76VLj9OR7i%2F45172643823e40894f4a98adb173126e%2FWhat_is_Apache_Kafka_Part_3_-_ksqlDB.png&w=3840&q=75 "Apache Kafka ksqlDB in action")
+![An illustrated overview of how ksqlDB works with Apache Kafka](./static/images/What_is_Apache_Kafka_Part_3_-_ksqlDB.webp "Apache Kafka ksqlDB in action")
 
 How ksqlDB works
 
