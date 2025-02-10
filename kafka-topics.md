@@ -15,7 +15,7 @@ A topic is identified by its name. For example, we may have a topic called **log
 
 Kafka topics can contain any kind of message in any format, and the sequence of all these messages is called a data stream.
 
-> [!WARNING](Kafka Topics - Warning)
+> [!WARNING]("Kafka Topics - Warning")
 > Unlike database tables, Kafka topics are not query-able. Instead, we have to create Kafka producers to send data to the topic and Kafka consumers to read the data from the topic in order.
 
 Data in Kafka topics is deleted after one week by default (also called the default message retention period), and this value is configurable. This mechanism of deleting old data ensures a Kafka cluster does not run out of disk space by recycling topics over time.
@@ -44,7 +44,7 @@ Kafka Topic example
 
 [](#Kafka-Topic-example-2)
 
-![Apache Kafka has many real world applications. This diagram shows how Apache Kafka can be used for fleet tracking in the transport industry.](/kafka/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fo12xgu4mepom%2F30ZTg09ZIeSl2IwQZKwV3K%2Ff9bc9796ddc8cbf69a8bd5ac8fef7acc%2FKafka_Topics_2.png&w=3840&q=75 "Apache Kafka for Fleet Tracking")
+![Apache Kafka has many real world applications. This diagram shows how Apache Kafka can be used for fleet tracking in the transport industry.](./static/images/Kafka_Topics_2.webp "Apache Kafka for Fleet Tracking")
 
 Using Apache Kafka for Fleet Tracking
 
