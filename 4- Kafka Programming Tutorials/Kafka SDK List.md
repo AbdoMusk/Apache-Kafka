@@ -126,3 +126,6 @@ Here you can find a list of libraries that has been compiled to ensure you have 
     *   [rdkafka-ruby](https://github.com/appsignal/rdkafka-ruby): based on librdkafka
         
     *   [Ruby Kafka](https://github.com/zendesk/ruby-kafka): limited support for new API
+
+---
+Next: [Creating a Kafka Java Project using Maven (pom.xml)](https://github.com/AbdoMusk/Apache-Kafka/blob/main/4-%20Kafka%20Programming%20Tutorials/Java%20Kafka%20Programming/1-%20Creating%20a%20Kafka%20Java%20Project%20using%20Maven%20%28pom.xml%29.md)

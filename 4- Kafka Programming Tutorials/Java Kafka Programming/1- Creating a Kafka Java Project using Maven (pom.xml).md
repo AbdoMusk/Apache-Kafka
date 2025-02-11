@@ -121,3 +121,6 @@ Expand the 'External Libraries' on the Project panel and verify that it displays
 All good!
 
 We have created a sample Java project that includes all the needed dependencies. This will form the basis for creating Java producers and consumers next.
+
+---
+Next: [Creating a Kafka Java Project using Gradle (build.gradle)](https://github.com/AbdoMusk/Apache-Kafka/blob/main/4-%20Kafka%20Programming%20Tutorials/Java%20Kafka%20Programming/2-%20Creating%20a%20Kafka%20Java%20Project%20using%20Gradle%20%28build.gradle%29.md)

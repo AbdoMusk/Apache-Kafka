@@ -32,9 +32,9 @@ In this section, we'll use Java programming language to programmatically replica
         
     *   [Gradle](/kafka/creating-a-kafka-java-project-using-gradle-build-gradle/)
         
-*   [Complete Kafka Producer](/kafka/complete-kafka-producer-with-java/)
+*   [Complete Kafka Producer](https://github.com/AbdoMusk/Apache-Kafka/blob/main/4-%20Kafka%20Programming%20Tutorials/Java%20Kafka%20Programming/3-%20Complete%20Kafka%20Producer%20with%20Java.md)
     
-*   [Complete Kafka Consumer](/kafka/complete-kafka-consumer-with-java/)
+*   [Complete Kafka Consumer](https://github.com/AbdoMusk/Apache-Kafka/blob/main/4-%20Kafka%20Programming%20Tutorials/Java%20Kafka%20Programming/4-%20Complete%20Kafka%20Consumer%20with%20Java.md)
     
 
 [Advanced tutorials](/kafka/advanced-kafka-consumer-with-java/) exist for the consumers, but the above links should be enough to get started!

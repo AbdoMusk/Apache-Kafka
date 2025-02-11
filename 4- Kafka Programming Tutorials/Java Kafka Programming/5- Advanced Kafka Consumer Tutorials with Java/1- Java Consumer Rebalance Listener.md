@@ -224,3 +224,6 @@ Important things to note:
 *   when we're done with a batch we call `consumer.commitAsync();` to commit offsets without blocking our consumer loop.
     
 *   on the consumer shutdown, we finally call again `consumer.commitSync(listener.getCurrentOffsets());` to commit one last time based on how far we've read before closing the consumer.
+
+---
+Next: [Java Consumer Seek and Assign](https://github.com/AbdoMusk/Apache-Kafka/blob/main/4-%20Kafka%20Programming%20Tutorials/Java%20Kafka%20Programming/5-%20Advanced%20Kafka%20Consumer%20Tutorials%20with%20Java/2-%20Java%20Consumer%20Seek%20and%20Assign.md)

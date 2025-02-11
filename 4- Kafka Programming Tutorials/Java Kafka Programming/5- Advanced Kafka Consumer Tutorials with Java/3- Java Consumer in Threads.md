@@ -124,3 +124,6 @@ Output
 [Thread-0]  App info kafka.consumer for consumer-my-sixth-application-1 unregistered
 [Thread-1]  Consumer closed
 ```
+
+---
+Next: [Kafka Advanced Concepts](https://github.com/AbdoMusk/Apache-Kafka/tree/main/5-%20Kafka%20Advanced%20Concepts)

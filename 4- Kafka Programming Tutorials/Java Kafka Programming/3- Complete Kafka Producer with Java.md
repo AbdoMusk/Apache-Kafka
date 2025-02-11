@@ -198,7 +198,7 @@ public class ProducerDemo {
 
 [](#Run-your-Java-Kafka-Producer-application-5)
 
-First, [create a Kafka topic](/kafka/kafka-topics-cli-tutorial/) `demo_java` with 3 partitions:
+First, [create a Kafka topic](https://github.com/AbdoMusk/Apache-Kafka/blob/main/3-%20Kafka%20CLI%20Tutorials/1-%20Kafka%20Topics%20CLI%20Tutorial.md) `demo_java` with 3 partitions:
 
 ```
 kafka-topics --bootstrap-server localhost:9092 --topic demo_java --create --partitions 3 --replication-factor 1
@@ -555,3 +555,6 @@ Conclusion
 [](#Conclusion-3)
 
 In this complete tutorial, we have learned how the Kafka Producer API works, but also explored some of the interesting performance optimization the Kafka Producer has internally to efficiently send data to Kafka.
+
+---
+Next: [Complete Kafka Consumer with Java](https://github.com/AbdoMusk/Apache-Kafka/blob/main/4-%20Kafka%20Programming%20Tutorials/Java%20Kafka%20Programming/4-%20Complete%20Kafka%20Consumer%20with%20Java.md)

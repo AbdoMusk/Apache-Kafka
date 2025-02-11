@@ -178,7 +178,7 @@ Consumer application runs in an infinite loop, use IntelliJ stop button to stop 
 
 [](#Java-Consumers-inside-a-Consumer-Group-6)
 
-We have seen that consumers [can share reads in a Consumer Group](/kafka/kafka-consumer-groups-and-consumer-offsets/) in order to scale. We can achieve this [using the CLI](/kafka/kafka-consumers-in-group-cli-tutorial/), and of course using Java (right below)
+We have seen that consumers [can share reads in a Consumer Group](/kafka/kafka-consumer-groups-and-consumer-offsets/) in order to scale. We can achieve this [using the CLI](https://github.com/AbdoMusk/Apache-Kafka/blob/main/3-%20Kafka%20CLI%20Tutorials/4-%20Kafka%20Consumers%20in%20Group%20CLI%20Tutorial.md), and of course using Java (right below)
 
 ### Read messages from the beginning
 
@@ -426,3 +426,6 @@ All in all, the output with a graceful shutdown is the following:
 [main] INFO org.apache.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-my-fifth-application-1 unregistered
 [main] INFO io.conduktor.demos.kafka.ConsumerDemo - The consumer is now gracefully closed.
 ```
+
+---
+Next: [Advanced Kafka Consumer Tutorials with Java](https://github.com/AbdoMusk/Apache-Kafka/tree/main/4-%20Kafka%20Programming%20Tutorials/Java%20Kafka%20Programming/5-%20Advanced%20Kafka%20Consumer%20Tutorials%20with%20Java)

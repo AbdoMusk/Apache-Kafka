@@ -115,3 +115,6 @@ Run the application. The console of the application will display the selected me
 [main] INFO ConsumerDemoAssignSeek - Partition: 0, Offset:11
 [main] INFO ConsumerDemoAssignSeek - Exiting the application
 ```
+
+---
+Next: [Java Consumer in Threads](https://github.com/AbdoMusk/Apache-Kafka/blob/main/4-%20Kafka%20Programming%20Tutorials/Java%20Kafka%20Programming/5-%20Advanced%20Kafka%20Consumer%20Tutorials%20with%20Java/3-%20Java%20Consumer%20in%20Threads.md)

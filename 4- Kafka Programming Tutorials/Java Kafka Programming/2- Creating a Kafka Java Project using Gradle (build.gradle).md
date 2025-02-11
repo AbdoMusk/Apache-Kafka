@@ -101,3 +101,6 @@ Expand the 'External Libraries' on the Project panel and verify that it displays
 ![Screenshot showing successful setup of your Kafka Gradle project in Java.](../../static/images/image__51_.webp "Kafka Gradle (build.gradle) Java Project Success")
 
 We have created a sample Java project that includes all the needed dependencies. This will form the basis for creating Java producers and consumers next.
+
+---
+Next: [Complete Kafka Producer with Java](https://github.com/AbdoMusk/Apache-Kafka/blob/main/4-%20Kafka%20Programming%20Tutorials/Java%20Kafka%20Programming/3-%20Complete%20Kafka%20Producer%20with%20Java.md)
