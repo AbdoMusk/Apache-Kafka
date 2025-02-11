@@ -145,8 +145,6 @@ Stopping Kafka on Docker
 
 Now that we've verified the installation, we can stop the services by stopping the respective containers:
 
-[](javascript:void(0);)
-
 ```
 $ docker-compose -f zk-single-kafka-single.yml stop
 Stopping kafka1 ... done
@@ -154,8 +152,6 @@ Stopping zoo1   ... done
 ```
 
 To remove all the resources including the containers altogether, use `down` instead of `stop`:
-
-[](javascript:void(0);)
 
 ```
 $ docker-compose -f zk-single-kafka-single.yml down
