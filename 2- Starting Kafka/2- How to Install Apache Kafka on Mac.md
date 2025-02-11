@@ -138,3 +138,6 @@ For Kafka:
 *   start Zookeeper using the update `server.properties` file as shown above
     
 *   you can also make a copy of the `server.properties` file anywhere in your computer and edit that file instead, and reference it in the Zookeeper start command shown above
+
+---
+Next: [How to Install Apache Kafka on Mac without Zookeeper (KRaft mode)](https://github.com/AbdoMusk/Apache-Kafka/blob/main/2-%20Starting%20Kafka/3-%20How%20to%20Install%20Apache%20Kafka%20on%20Mac%20without%20Zookeeper%20%28KRaft%20mode%29.md)

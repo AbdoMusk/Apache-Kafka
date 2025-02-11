@@ -159,3 +159,6 @@ Removing kafka1 ... done
 Removing zoo1   ... done
 Removing network kafka-stack-docker-compose_default
 ```
+
+---
+Next: [Kafka CLI Tutorials](https://github.com/AbdoMusk/Apache-Kafka/tree/main/3-%20Kafka%20CLI%20Tutorials)

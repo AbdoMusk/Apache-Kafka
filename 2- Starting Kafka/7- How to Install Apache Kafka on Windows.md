@@ -258,3 +258,6 @@ Yes you can and things will appear that they're working, but then you WILL run i
 Yes, if you download the Kafka binaries on Windows and use commands such as `kafka-topics.bat` against your cluster running in WSL2, everything should work properly.
 
 The only command you should not run on Windows is `kafka-server-start`
+
+---
+Next: [Kafka Topics CLI Tutorial](https://github.com/AbdoMusk/Apache-Kafka/blob/main/3-%20Kafka%20CLI%20Tutorials/1-%20Kafka%20Topics%20CLI%20Tutorial.md)

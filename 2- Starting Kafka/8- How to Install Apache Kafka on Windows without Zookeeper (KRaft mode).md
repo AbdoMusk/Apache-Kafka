@@ -222,3 +222,6 @@ kafka-topics.sh
 [](#Read-more-about-Apache-Kafka-KRaft-0)
 
 You can read and learn more about the KRaft mode in Kafka [here](https://github.com/apache/kafka/blob/trunk/config/kraft/README.md).
+
+---
+Next: [How to Start Kafka using Docker](https://github.com/AbdoMusk/Apache-Kafka/blob/main/2-%20Starting%20Kafka/9-%20How%20to%20Start%20Kafka%20using%20Docker.md)

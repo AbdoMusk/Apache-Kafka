@@ -136,3 +136,6 @@ Read more about Kafka KRaft
 [](#Read-more-about-Kafka-KRaft-5)
 
 You can read and learn more about the KRaft mode in Kafka [here](https://github.com/apache/kafka/blob/trunk/config/kraft/README.md).
+
+---
+Next: [How to Install Apache Kafka on Windows](https://github.com/AbdoMusk/Apache-Kafka/blob/main/2-%20Starting%20Kafka/7-%20How%20to%20Install%20Apache%20Kafka%20on%20Windows.md)

@@ -115,3 +115,6 @@ kafka-topics.sh
 [](#Read-more-4)
 
 You can read and learn more about the KRaft mode in Kafka [here](https://github.com/apache/kafka/blob/trunk/config/kraft/README.md).
+
+---
+Next: [How to install Apache Kafka on Mac with Homebrew](https://github.com/AbdoMusk/Apache-Kafka/blob/main/2-%20Starting%20Kafka/4-%20How%20to%20install%20Apache%20Kafka%20on%20Mac%20with%20Homebrew.md)

@@ -9,12 +9,12 @@ Now that we have learned Kafka's fundamentals, it is time for us to start Kafka 
 
 There are several ways to start Kafka, and we will provide instructions for the most popular ones, including instructions with and without Zookeeper:
 
-*   [Starting Kafka with Conduktor](/kafka/how-to-start-kafka-with-conduktor/) **(Mac, Windows & Linux) - fastest & easiest setup**
+*   [Starting Kafka with Conduktor](https://github.com/AbdoMusk/Apache-Kafka/blob/main/2-%20Starting%20Kafka/1-%20How%20to%20Start%20Kafka%20with%20Conduktor.md) **(Mac, Windows & Linux) - fastest & easiest setup**
     
-*   [MacOS](/kafka/how-to-install-apache-kafka-on-mac/)
+*   [MacOS](https://github.com/AbdoMusk/Apache-Kafka/blob/main/2-%20Starting%20Kafka/2-%20How%20to%20Install%20Apache%20Kafka%20on%20Mac.md)
     
-*   [Linux](/kafka/how-to-install-apache-kafka-on-linux/)
+*   [Linux](https://github.com/AbdoMusk/Apache-Kafka/blob/main/2-%20Starting%20Kafka/5-%20How%20to%20Install%20Apache%20Kafka%20on%20Linux.md)
     
-*   [Windows](/kafka/how-to-install-apache-kafka-on-windows/)
+*   [Windows](https://github.com/AbdoMusk/Apache-Kafka/blob/main/2-%20Starting%20Kafka/7-%20How%20to%20Install%20Apache%20Kafka%20on%20Windows.md)
     
 *   [Docker (platform agnostic](/kafka/how-to-start-kafka-using-docker/))

@@ -23,11 +23,11 @@ Installing Kafka Binaries
 
 Launching Kafka using Conduktor allows you to start Kafka with no requirements, but if you would like to use the CLI tools, you currently need to install the Kafka binaries. Instructions are here (download Kafka and set up the $PATH variable and you're good to go):
 
-*   Install Kafka Binaries on [Mac](/kafka/how-to-install-apache-kafka-on-mac/)
+*   Install Kafka Binaries on [Mac](https://github.com/AbdoMusk/Apache-Kafka/blob/main/2-%20Starting%20Kafka/2-%20How%20to%20Install%20Apache%20Kafka%20on%20Mac.md)
     
-*   Install Kafka Binaries on [Windows](/kafka/how-to-install-apache-kafka-on-windows/)
+*   Install Kafka Binaries on [Windows](https://github.com/AbdoMusk/Apache-Kafka/blob/main/2-%20Starting%20Kafka/7-%20How%20to%20Install%20Apache%20Kafka%20on%20Windows.md)
     
-*   Install Kafka Binaries on [Linux](/kafka/how-to-install-apache-kafka-on-linux/)
+*   Install Kafka Binaries on [Linux](https://github.com/AbdoMusk/Apache-Kafka/blob/main/2-%20Starting%20Kafka/5-%20How%20to%20Install%20Apache%20Kafka%20on%20Linux.md)
     
 
 Feature requests? Feedback?
@@ -38,3 +38,6 @@ Feature requests? Feedback?
 We are actively developing this feature and would love your feedback.
 
 Send us an email at kafkademy \[at\] conduktor \[dot\] io and we'll be happy to read from you!
+
+---
+Next: [How to Install Apache Kafka on Mac](https://github.com/AbdoMusk/Apache-Kafka/blob/main/2-%20Starting%20Kafka/2-%20How%20to%20Install%20Apache%20Kafka%20on%20Mac.md)
