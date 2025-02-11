@@ -21,3 +21,6 @@ In this section, we will do a deep dive on Kafka internals and understand some o
     
 
 Happy learning!
+
+---
+Next: [Delivery Semantics for Kafka Consumers](https://github.com/AbdoMusk/Apache-Kafka/blob/main/5-%20Kafka%20Advanced%20Concepts/2-%20Kafka%20Producers%20Advanced/8-%20Kafka%20Consumers%20Advanced/1-%20Delivery%20Semantics%20for%20Kafka%20Consumers.md)
