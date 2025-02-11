@@ -66,3 +66,6 @@ Managed Kafka
 As an alternative, there are many vendors that offer Kafka as a fully managed service that can be deployed on the cloud of your choice. With a managed Kafka solution, you can focus on building your core apps. The security, uptime, and management of the Kafka cluster will be taken care of by the vendor at a price.
 
 Example of vendors are [Amazon MSK](https://aws.amazon.com/msk/), [Confluent Cloud](https://www.confluent.io/confluent-cloud/), [Aiven](https://aiven.io), [CloudKarafka](https://www.cloudkarafka.com), [Instaclustr](https://www.instaclustr.com), [Upstash](https://upstash.com).
+
+---
+Next: [Kafka Multi-Cluster and MirrorMaker](https://github.com/AbdoMusk/Apache-Kafka/blob/main/6-%20Kafka%20Administration/5-%20Kafka%20Multi-Cluster%20and%20MirrorMaker.md)

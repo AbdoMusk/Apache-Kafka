@@ -113,3 +113,6 @@ For further readings on this topic, the following are a good set of references.
 *   [https://www.altoros.com/blog/multi-cluster-deployment-options-for-apache-kafka-pros-and-cons/](https://www.altoros.com/blog/multi-cluster-deployment-options-for-apache-kafka-pros-and-cons/)
     
 *   [https://github.com/Comcast/MirrorTool-for-Kafka-Connect](https://github.com/Comcast/MirrorTool-for-Kafka-Connect)
+
+---
+Next: [What is Apache Kafka](https://github.com/AbdoMusk/Apache-Kafka/blob/main/What%20is%20Apache%20Kafka.md)

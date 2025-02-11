@@ -65,3 +65,6 @@ It is fairly simple to upgrade Kafka. There are five steps to upgrade with a rol
     
 
 Refer to the documentation at: [https://kafka.apache.org/documentation/#upgrade](https://kafka.apache.org/documentation/#upgrade)
+
+---
+Next: [Kafka Security](https://github.com/AbdoMusk/Apache-Kafka/blob/main/6-%20Kafka%20Administration/2-%20Kafka%20Security.md)

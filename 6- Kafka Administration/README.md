@@ -9,13 +9,13 @@ This section represents concepts you will need to master as you start creating a
 
 *   [Kafka Broker & Client Upgrades](/kafka/kafka-broker-and-client-upgrades/): what are the best practices regarding upgrading your Kafka clients and your Kafka brokers?
     
-*   [Kafka Security](/kafka/kafka-security/): an overview of what security looks like in Kafka
+*   [Kafka Security](https://github.com/AbdoMusk/Apache-Kafka/blob/main/6-%20Kafka%20Administration/2-%20Kafka%20Security.md): an overview of what security looks like in Kafka
     
-*   [Kafka Monitoring and Operations](/kafka/kafka-monitoring-and-operations/): what are important metrics and operations in Kafka?
+*   [Kafka Monitoring and Operations](https://github.com/AbdoMusk/Apache-Kafka/blob/main/6-%20Kafka%20Administration/3-%20Kafka%20Monitoring%20and%20Operations.md): what are important metrics and operations in Kafka?
     
-*   [Kafka Cluster Setup Overview](/kafka/kafka-cluster-setup-overview/): how many brokers, where are they located?
+*   [Kafka Cluster Setup Overview](https://github.com/AbdoMusk/Apache-Kafka/blob/main/6-%20Kafka%20Administration/4-%20Kafka%20Cluster%20Setup%20Overview.md): how many brokers, where are they located?
     
-*   [Kafka Multi-Cluster and MirrorMaker](/kafka/kafka-multi-cluster-and-mirrormaker/): replication architectures in Kafka
+*   [Kafka Multi-Cluster and MirrorMaker](https://github.com/AbdoMusk/Apache-Kafka/blob/main/6-%20Kafka%20Administration/5-%20Kafka%20Multi-Cluster%20and%20MirrorMaker.md): replication architectures in Kafka
     
 *   [Kafka Advertised Host Setting](/kafka/kafka-advertised-host-setting/): how to ensure clients can connect to Kafka?
     

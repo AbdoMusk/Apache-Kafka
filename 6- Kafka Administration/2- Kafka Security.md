@@ -133,3 +133,6 @@ Now that you’re interested in learning about security, or even setting it up f
 *   [Kafka Documentation on Security](https://kafka.apache.org/documentation/#security): it is comprehensive but will require many reads and tries to make your setup work. Nonetheless, try to read it
     
 *   [Confluent Documentation on Security](https://docs.confluent.io/4.0.0/security.html): it is complete and comes with some hands-on to secure most Kafka components (including Kafka Connect, Kafka Schema Registry, etc…)
+
+---
+Next: [Kafka Monitoring and Operations](https://github.com/AbdoMusk/Apache-Kafka/blob/main/6-%20Kafka%20Administration/3-%20Kafka%20Monitoring%20and%20Operations.md)

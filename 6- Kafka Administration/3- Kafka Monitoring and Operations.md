@@ -94,3 +94,6 @@ For the day-to-day operations of Kafka, there are a number of operations that on
     
 
 It is important to remember that managing your own cluster comes with all these responsibilities and more.
+
+---
+Next: [Kafka Cluster Setup Overview](https://github.com/AbdoMusk/Apache-Kafka/blob/main/6-%20Kafka%20Administration/4-%20Kafka%20Cluster%20Setup%20Overview.md)
