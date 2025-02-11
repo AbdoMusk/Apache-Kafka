@@ -2,6 +2,7 @@ Kafka Topics
 ============
 
 Kafka Topics, Partitions, and Offsets
+
 [Beginner](https://github.com/AbdoMusk/Apache-Kafka/blob/main/1-%20Kafka%20Fundamentals/1-%20Kafka%20Topics.md#kafka-topics)
 
 [Advanced](https://github.com/AbdoMusk/Apache-Kafka/tree/main/5-%20Kafka%20Advanced%20Concepts/1-%20Kafka%20Topics%20Advanced)
