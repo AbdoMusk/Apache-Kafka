@@ -33,3 +33,6 @@ In this section, we will learn all of the fundamentals and understand the variou
     
 
 This content is intended for users who want to understand and use Apache Kafka properly.
+
+---
+Next: [Kafka Producers](https://github.com/AbdoMusk/Apache-Kafka/blob/main/1-%20Kafka%20Fundamentals/1-%20Kafka%20Topics.md)
