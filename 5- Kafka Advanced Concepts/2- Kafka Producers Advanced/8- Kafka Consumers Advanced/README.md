@@ -1,11 +1,9 @@
-Beginner
-
-Advanced
-
 Kafka Consumers Advanced
 ========================
 
 Deep dive into Kafka consumers
+
+[Kafka Consumers Beginner](https://github.com/AbdoMusk/Apache-Kafka/blob/main/1-%20Kafka%20Fundamentals/3-%20Kafka%20Consumers.md)
 
 * * *
 
