@@ -11,11 +11,11 @@ Apache Kafka is used by thousands of the world's leading organizations for high-
 
 In this 3 part introductory series, you will learn:
 
-*   [What Apache Kafka is and where it came from](#Part-1:-Data-Integration-Challenges-0)
+*   [What Apache Kafka is and where it came from](#part-1-data-integration-challenges)
     
-*   [What the main components of Apache Kafka are](#Part-2:-Definition-of-Core-Apache-Kafka-Concepts-9)
+*   [What the main components of Apache Kafka are](#part-2-definition-of-core-apache-kafka-concepts)
     
-*   [What the Apache Kafka ecosystem is](#Part-3:-The-Kafka-Ecosystem-13)
+*   [What the Apache Kafka ecosystem is](#part-3-the-kafka-ecosystem)
     
 
 By the end, you will confidently understand Apache Kafka and its place in the data streaming world.
@@ -28,8 +28,6 @@ Looking for a headstart on Apache Kafka? The Conduktor Platform is the ultimate 
 
 Part 1: Data Integration Challenges
 -----------------------------------
-
-[](#Part-1:-Data-Integration-Challenges-0)
 
 Context
 
@@ -167,8 +165,6 @@ Unknown to many, Kafka is at the core of lots of the services we enjoy on a dail
 Part 2: Definition of Core Apache Kafka Concepts
 ------------------------------------------------
 
-[](#Part-2:-Definition-of-Core-Apache-Kafka-Concepts-9)
-
 Now that we've learned about Apache Kafka at a high level, let's dive in and learn how to use the tool. In this part, we will cover the basics of Kafka topics, producers, and consumers.
 
 ![Apache Kafka Components. An overview of the relationship between Kafka clusters, Kafka topics, Kafka producers and Kafka Consumers.](./static/images/Producer_-_Topic_-_Consumer.webp "What is Apache Kafka - Producers, Topics and Consumers")
@@ -210,8 +206,6 @@ Read more in [Kafka Consumers](/kafka/kafka-consumers/).
 
 Part 3: The Kafka Ecosystem
 ---------------------------
-
-[](#Part-3:-The-Kafka-Ecosystem-13)
 
 A number of additional tools and libraries have been developed for Kafka over the years to expand its functionality. In this section, we'll look at some of the most popular parts of the wider Kafka ecosystem.
 
