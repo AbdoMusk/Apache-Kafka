@@ -1,11 +1,11 @@
-Beginner
 
-Advanced
 
 Kafka Producers Advanced
 ========================
 
 Deep dive into Kafka producers
+
+[Beginner](https://github.com/AbdoMusk/Apache-Kafka/blob/main/1-%20Kafka%20Fundamentals/2-%20Kafka%20Producers.md)
 
 * * *
 
@@ -96,3 +96,6 @@ In this section, we will discuss some of the ones we judge are the most importan
     
 
 **Happy learning!**
+
+---
+Next: [Kafka Producer Acks Deep Dive](https://github.com/AbdoMusk/Apache-Kafka/blob/main/5-%20Kafka%20Advanced%20Concepts/2-%20Kafka%20Producers%20Advanced/1-%20Kafka%20Producer%20Acks%20Deep%20Dive.md)
