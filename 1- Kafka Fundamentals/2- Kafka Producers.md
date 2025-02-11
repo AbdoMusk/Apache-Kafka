@@ -12,13 +12,13 @@ Kafka Producers
 
 [](#Kafka-Producers-0)
 
-Applications that send data into topics are known as Kafka producers. Applications typically integrate a Kafka client library to write to Apache Kafka. Excellent client libraries exist for almost [all programming languages](/kafka/kafka-sdk-list/) that are popular today including Python, Java, Go, and others.
+Applications that send data into topics are known as Kafka producers. Applications typically integrate a Kafka client library to write to Apache Kafka. Excellent client libraries exist for almost [all programming languages](https://github.com/AbdoMusk/Apache-Kafka/blob/main/4-%20Kafka%20Programming%20Tutorials/Kafka%20SDK%20List.md) that are popular today including Python, Java, Go, and others.
 
 ![Apache Kafka Producers send data into Kafka. These messages are then routed by the broker to the relevant topics and partitions.](../static/images/Kafka_Producers_1.webp "Apache Kafka Producer")
 
 A Kafka producer sends messages to a topic, and messages are distributed to partitions according to a mechanism such as key hashing (more on it below).
 
-For a message to be successfully written into a Kafka topic, a producer must specify a level of acknowledgment (acks). This subject will be introduced in depth in the [topic replication](/kafka/kafka-topic-replication/) section.
+For a message to be successfully written into a Kafka topic, a producer must specify a level of acknowledgment (acks). This subject will be introduced in depth in the [topic replication](https://github.com/AbdoMusk/Apache-Kafka/blob/main/1-%20Kafka%20Fundamentals/6-%20Kafka%20Topic%20Replication.md) section.
 
 Message Keys
 ------------
@@ -108,3 +108,6 @@ targetPartition = Math.abs(Utils.murmur2(keyBytes)) % (numPartitions - 1)
 ```
 
 It is possible to override the default partitioner via the producer property `partitioner.class`, although it is not advisable unless you know what you are doing.
+
+---
+Next: [Kafka Consumers](https://github.com/AbdoMusk/Apache-Kafka/blob/main/1-%20Kafka%20Fundamentals/3-%20Kafka%20Consumers.md)

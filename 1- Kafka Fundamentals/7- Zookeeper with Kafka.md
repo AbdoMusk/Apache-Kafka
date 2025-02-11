@@ -77,3 +77,6 @@ This means that:
     
 
 **Therefore, to be a great modern-day Kafka developer, never ever use Zookeeper as a configuration in your Kafka clients, and other programs that connect to Kafka.**
+
+---
+Next: [Kafka KRaft Mode](https://github.com/AbdoMusk/Apache-Kafka/blob/main/1-%20Kafka%20Fundamentals/8-%20Kafka%20KRaft%20Mode.md)

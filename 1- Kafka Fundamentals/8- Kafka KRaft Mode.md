@@ -56,6 +56,9 @@ More Kafka KRaft reading
 
 Kafka KRaft was officially released as of Kafka version 3.3 and is now production ready. Read more on the [change here](https://cwiki.apache.org/confluence/display/KAFKA/KIP-833%3A+Mark+KRaft+as+Production+Ready).
 
-A starting tutorial is included on this site for [Windows](/kafka/how-to-install-apache-kafka-on-windows/), [Mac](/kafka/how-to-install-apache-kafka-on-mac/) and [Linux](/kafka/how-to-install-apache-kafka-on-linux/).
+A starting tutorial is included on this site for [Windows](https://github.com/AbdoMusk/Apache-Kafka/blob/main/2-%20Starting%20Kafka/7-%20How%20to%20Install%20Apache%20Kafka%20on%20Windows.md), [Mac](https://github.com/AbdoMusk/Apache-Kafka/blob/main/2-%20Starting%20Kafka/2-%20How%20to%20Install%20Apache%20Kafka%20on%20Mac.md) and [Linux](https://github.com/AbdoMusk/Apache-Kafka/blob/main/2-%20Starting%20Kafka/5-%20How%20to%20Install%20Apache%20Kafka%20on%20Linux.md).
 
 A good blog on the [Confluent blog](https://www.confluent.io/blog/kafka-without-zookeeper-a-sneak-peek/) describes the benefits of KRaft.
+
+---
+Next: [Starting Kafka](https://github.com/AbdoMusk/Apache-Kafka/tree/main/2-%20Starting%20Kafka)

@@ -14,7 +14,7 @@ Kafka Consumers
 
 [](#Kafka-Consumers-0)
 
-Applications that read data from Kafka topics are known as consumers. Applications integrate a Kafka client library to read from Apache Kafka. Excellent client libraries exist for almost [all programming languages](/kafka/kafka-sdk-list/) that are popular today including Python, Java, Go, and others.
+Applications that read data from Kafka topics are known as consumers. Applications integrate a Kafka client library to read from Apache Kafka. Excellent client libraries exist for almost [all programming languages](https://github.com/AbdoMusk/Apache-Kafka/blob/main/4-%20Kafka%20Programming%20Tutorials/Kafka%20SDK%20List.md) that are popular today including Python, Java, Go, and others.
 
 Consumers can read from one or more partitions at a time in Apache Kafka, and data is read in order **within each partition** as shown below.
 
@@ -42,7 +42,7 @@ Kafka Message Deserializers
 >
 > Data being consumed must be deserialized in the same format it was serialized in.
 
-As we have seen before, the data sent by the Kafka producers is [serialized](/kafka/kafka-producers/). This means that the data received by the Kafka consumers must be correctly deserialized in order to be useful within your application. Data being consumed must be deserialized in the same format it was serialized in. For example:
+As we have seen before, the data sent by the Kafka producers is [serialized](https://github.com/AbdoMusk/Apache-Kafka/blob/main/1-%20Kafka%20Fundamentals/3-%20Kafka%20Producers.md). This means that the data received by the Kafka consumers must be correctly deserialized in order to be useful within your application. Data being consumed must be deserialized in the same format it was serialized in. For example:
 
 *   if the producer serialized a `String` using `StringSerializer`, the consumer must deserialize it using `StringDeserializer`
     
@@ -61,3 +61,6 @@ The serialization and deserialization format of a topic must not change during a
 > Messages sent to a Kafka topic that do not respect the agreed-upon serialization format are called poison pills. [They are not fun to deal with.](https://www.slideshare.net/ConfluentInc/streaming-apps-and-poison-pills-handle-the-unexpected-with-kafka-streams-loic-divad-xebia-france-kafka-summit-sf-2019)
 
 Failure to correctly deserialize may cause crashes or inconsistent data being fed to the downstream processing applications. This can be tough to debug, so it is best to think about it as you're writing your code the first time.
+
+---
+Next: [Kafka Consumer Groups & Offsets](https://github.com/AbdoMusk/Apache-Kafka/blob/main/1-%20Kafka%20Fundamentals/4-%20Kafka%20Consumer%20Groups%20%26%20Offsets.md)

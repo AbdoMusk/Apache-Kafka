@@ -69,3 +69,6 @@ Apache Kafka offsets represent the position of a message within a Kafka Partitio
 > If a topic has more than one partition, Kafka guarantees the order of messages within a partition, but there is no ordering of messages across partitions.
 
 Even though we know that messages in Kafka topics are deleted over time (as seen above), the offsets are not re-used. They continually are incremented in a never-ending sequence.
+
+---
+Next: [Kafka Producers](https://github.com/AbdoMusk/Apache-Kafka/blob/main/1-%20Kafka%20Fundamentals/2-%20Kafka%20Producers.md)

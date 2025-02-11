@@ -44,7 +44,7 @@ In the diagram above, there are two topics illustrated - _Topic-A_ has three par
 
 There is no relationship between the broker ID and the partition ID - Kafka does a good job of distributing partitions evenly among the available brokers. In case the cluster becomes unbalanced due to an overload of a specific broker, it is possible for Kafka administrators to rebalance the cluster and move partitions.
 
-Do not worry: one aspect that is discussed in [in the next page](/kafka/kafka-topic-replication/) is around how partitions are placed on Kafka brokers when topics are replicated.
+Do not worry: one aspect that is discussed in [in the next page](https://github.com/AbdoMusk/Apache-Kafka/blob/main/1-%20Kafka%20Fundamentals/6-%20Kafka%20Topic%20Replication.md) is around how partitions are placed on Kafka brokers when topics are replicated.
 
 How do clients connect to a Kafka Cluster (bootstrap server)?
 -------------------------------------------------------------
@@ -60,3 +60,6 @@ The bootstrap server will return metadata to the client that consists of a list 
 Connecting to a Kafka Cluster
 
 In practice, it is common for the Kafka client to reference at least two bootstrap servers in its connection URL, in the case one of them not being available, the other one should still respond to the connection request. That means that Kafka clients (and developers / DevOps) do not need to be aware of every single hostname of every single broker in a Kafka cluster, but only to be aware and reference two or three in the connection string for clients.
+
+---
+Next: [Kafka Topic Replication](https://github.com/AbdoMusk/Apache-Kafka/blob/main/1-%20Kafka%20Fundamentals/6-%20Kafka%20Topic%20Replication.md)

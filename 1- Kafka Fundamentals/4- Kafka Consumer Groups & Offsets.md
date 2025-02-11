@@ -93,7 +93,7 @@ Therefore consumer offsets must be committed regularly.
 
 By default, Java consumers automatically commit offsets (controlled by the `enable.auto.commit=true` property) every `auto.commit.interval.ms` (5 seconds by default) when `.poll()` is called.
 
-Details of that mechanism are discussed in [Delivery Semantics for Consumers](/kafka/delivery-semantics-for-kafka-consumers/).
+Details of that mechanism are discussed in [Delivery Semantics for Consumers](https://github.com/AbdoMusk/Apache-Kafka/blob/main/5-%20Kafka%20Advanced%20Concepts/2-%20Kafka%20Producers%20Advanced/8-%20Kafka%20Consumers%20Advanced/1-%20Delivery%20Semantics%20for%20Kafka%20Consumers.md).
 
 A consumer may opt to commit offsets by itself (`enable.auto.commit=false`). Depending on when it chooses to commit offsets, there are delivery semantics available to the consumer. The three delivery semantics are explained below.
 
@@ -119,3 +119,6 @@ A consumer may opt to commit offsets by itself (`enable.auto.commit=false`). Dep
         
 
 In practice, at least once with idempotent processing is the most desirable and widely implemented mechanism for Kafka consumers.
+
+---
+Next: [Kafka Brokers](https://github.com/AbdoMusk/Apache-Kafka/blob/main/1-%20Kafka%20Fundamentals/5-%20Kafka%20Brokers.md)

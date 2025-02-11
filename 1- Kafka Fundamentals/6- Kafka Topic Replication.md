@@ -182,3 +182,6 @@ The preferred leader is the designated leader broker for a partition at topic cr
 > The process of deciding which broker is a leader at topic creation time is called a preferred leader election.
 
 When the preferred leader goes down, any partition that is an ISR (in-sync replica) is eligible to become a new leader (but not a preferred leader). Upon recovering the preferred leader broker and having its partition data back in sync, the preferred leader will regain leadership for that partition.
+
+---
+Next: [Zookeeper with Kafka](https://github.com/AbdoMusk/Apache-Kafka/blob/main/1-%20Kafka%20Fundamentals/7-%20Zookeeper%20with%20Kafka.md)
