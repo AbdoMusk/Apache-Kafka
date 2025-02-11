@@ -5,7 +5,7 @@ Kafka Producers Advanced
 
 Deep dive into Kafka producers
 
-[Beginner](https://github.com/AbdoMusk/Apache-Kafka/blob/main/1-%20Kafka%20Fundamentals/2-%20Kafka%20Producers.md)
+[Kafka Producers Beginner](https://github.com/AbdoMusk/Apache-Kafka/blob/main/1-%20Kafka%20Fundamentals/2-%20Kafka%20Producers.md)
 
 * * *
 
