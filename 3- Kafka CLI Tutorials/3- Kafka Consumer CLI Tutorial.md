@@ -41,7 +41,7 @@ To create a Kafka topic, we need to provide the mandatory parameters:
 
 [](#Example-0)
 
-Make sure you have followed the [Kafka Producer CLI Tutorial](/kafka/kafka-producer-cli-tutorial/) to create and send data to a Kafka topic first.
+Make sure you have followed the [Kafka Producer CLI Tutorial](https://github.com/AbdoMusk/Apache-Kafka/blob/main/3-%20Kafka%20CLI%20Tutorials/2-%20Kafka%20Producer%20CLI%20Tutorial.md) to create and send data to a Kafka topic first.
 
 **Consuming only the future messages of a Kafka topic**
 
@@ -119,7 +119,7 @@ To pass in any consumer property, such as the `allow.auto.create.topics` setting
 
 `--group`
 
-By default a random consumer group ID is chosen, but you can override it with this option. See the demo in the [Kafka Consumers in Group CLI Tutorial](/kafka/kafka-consumers-in-group-cli-tutorial/).
+By default a random consumer group ID is chosen, but you can override it with this option. See the demo in the [Kafka Consumers in Group CLI Tutorial](https://github.com/AbdoMusk/Apache-Kafka/blob/main/3-%20Kafka%20CLI%20Tutorials/4-%20Kafka%20Consumers%20in%20Group%20CLI%20Tutorial.md).
 
 `--max-messages`
 
@@ -161,3 +161,6 @@ More properties are available such as:
 *   `line.separator`
     
 *   `headers.separator`
+
+---
+Next: [Kafka Consumers in Group CLI Tutorial](https://github.com/AbdoMusk/Apache-Kafka/blob/main/3-%20Kafka%20CLI%20Tutorials/4-%20Kafka%20Consumers%20in%20Group%20CLI%20Tutorial.md)

@@ -167,3 +167,6 @@ Example input:
 ```
 
 Do not forget to always include your key/value separator otherwise you will get an exception.
+
+---
+Next: [Kafka Consumer CLI Tutorial](https://github.com/AbdoMusk/Apache-Kafka/blob/main/3-%20Kafka%20CLI%20Tutorials/3-%20Kafka%20Consumer%20CLI%20Tutorial.md)

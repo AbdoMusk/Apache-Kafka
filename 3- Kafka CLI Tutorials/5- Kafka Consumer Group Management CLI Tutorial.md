@@ -253,3 +253,6 @@ first_topic                    0               Successful
 first_topic                    1               Successful
 first_topic                    2               Successful
 ```
+
+---
+Next: [Kafka Connect CLI Tutorial](https://github.com/AbdoMusk/Apache-Kafka/blob/main/3-%20Kafka%20CLI%20Tutorials/6-%20Kafka%20Connect%20CLI%20Tutorial.md)

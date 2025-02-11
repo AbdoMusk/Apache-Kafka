@@ -112,9 +112,12 @@ You have seen how consumers work in consumer groups!
 
 [](#Gotchas-2)
 
-*   If you consume in a consumer groups using the `--group` command, then if you try using the `--from-beginning` option afterwards with the same group, it will be ignored. Instead, you need to reset your consumer groups as [shown here](/kafka/kafka-consumer-group-management-cli-tutorial/).
+*   If you consume in a consumer groups using the `--group` command, then if you try using the `--from-beginning` option afterwards with the same group, it will be ignored. Instead, you need to reset your consumer groups as [shown here](https://github.com/AbdoMusk/Apache-Kafka/blob/main/3-%20Kafka%20CLI%20Tutorials/5-%20Kafka%20Consumer%20Group%20Management%20CLI%20Tutorial.md).
     
 
 *   If you don't specify a --group option, the consumer group of the consumer will be a random consumer group such as console-consumer-11984
     
 *   If you see one consumer getting all the messages, that probably means that your topic was only created with 1 partition, which you can verify with the `kafka-topics --describe` command
+
+---
+Next: [Kafka Consumer Group Management CLI Tutorial](https://github.com/AbdoMusk/Apache-Kafka/blob/main/3-%20Kafka%20CLI%20Tutorials/5-%20Kafka%20Consumer%20Group%20Management%20CLI%20Tutorial.md)

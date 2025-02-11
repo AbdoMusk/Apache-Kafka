@@ -127,3 +127,6 @@ kafka-console-consumer --bootstrap-server localhost:9092 --topic wikipedia.recen
 There is a lot more to explore in Kafka Connect, this part was meant as an introduction.
 
 Hope you liked it!
+
+---
+Next: [Kafka SDK List](https://github.com/AbdoMusk/Apache-Kafka/blob/main/4-%20Kafka%20Programming%20Tutorials/Kafka%20SDK%20List.md)
