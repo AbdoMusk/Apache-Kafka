@@ -14,3 +14,6 @@ In this section, we will see how to write consumers and producers in various lan
 *   [Java Kafka Programming](/kafka/java-kafka-programming/): producers & consumers in Java
     
 *   Would like to see another language? Email us at feedback \[at\] conduktor \[dot\] io
+
+---
+Next: [Kafka SDK List](https://github.com/AbdoMusk/Apache-Kafka/blob/main/4-%20Kafka%20Programming%20Tutorials/Kafka%20SDK%20List.md)
