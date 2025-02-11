@@ -11,11 +11,11 @@ Apache Kafka is used by thousands of the world's leading organizations for high-
 
 In this 3 part introductory series, you will learn:
 
-*   [What Apache Kafka is and where it came from](https://www.conduktor.io/kafka/what-is-apache-kafka#Part-1:-Data-Integration-Challenges)
+*   [What Apache Kafka is and where it came from](#Part-1:-Data-Integration-Challenges-0)
     
-*   [What the main components of Apache Kafka are](https://www.conduktor.io/kafka/what-is-apache-kafka#Part-2:-Defintion-of-Core-Apache-Kafka-Concepts)
+*   [What the main components of Apache Kafka are](#Part-2:-Definition-of-Core-Apache-Kafka-Concepts-9)
     
-*   [What the Apache Kafka ecosystem is](https://www.conduktor.io/kafka/what-is-apache-kafka#Part-3:-The-Kakfa-Ecosystem)
+*   [What the Apache Kafka ecosystem is](#Part-3:-The-Kafka-Ecosystem-13)
     
 
 By the end, you will confidently understand Apache Kafka and its place in the data streaming world.
