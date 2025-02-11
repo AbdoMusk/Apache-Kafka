@@ -36,8 +36,6 @@ To produce to a Kafka topic, we need to provide the mandatory parameters:
 
 Make sure the topic first\_topic is already created with 3 partitions and a replication factor of 1:
 
-.sh.batnothing
-
 ```
 kafka-topics --bootstrap-server localhost:9092 --topic first_topic --create --partitions 3 --replication-factor 1
 ```
@@ -46,15 +44,11 @@ Start producing to the topic:
 
 **Kafka v2.5+**:
 
-.sh.batnothing
-
 ```
 kafka-console-producer --bootstrap-server localhost:9092 --topic first_topic
 ```
 
 **Kafka v2.4 or less:**
-
-.sh.batnothing
 
 ```
 kafka-console-producer --broker-list localhost:9092 --topic first_topic
@@ -133,8 +127,6 @@ My name is Stephane
 
 Produce messages to the topic from the file (see the end of the command)
 
-.sh.batnothing
-
 ```
 kafka-console-producer --bootstrap-server localhost:9092 --topic first_topic < topic-input.txt
 ```
@@ -151,8 +143,6 @@ By default messages sent to a Kafka topic will result in messages with `null` ke
 We must use the properties `parse.key` and `key.separator` to send the key alongside messages.
 
 In this example, the separator between the key and the value is: `:`
-
-.sh.batnothing
 
 
 ```

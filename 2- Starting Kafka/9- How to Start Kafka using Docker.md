@@ -63,8 +63,6 @@ Resolving deltas: 100% (375/375), done.
 ```
 Next, go to the folder `kafka-stack-docker-compose` and list the files.
 
-.sh.batnothing
-
 ```
 $ ls -l
 total 60
