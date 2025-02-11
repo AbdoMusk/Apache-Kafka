@@ -42,3 +42,6 @@ properties.setProperty(ProducerConfig.COMPRESSION_TYPE_CONFIG, "snappy");
 properties.setProperty(ProducerConfig.LINGER_MS_CONFIG, "20");
 properties.setProperty(ProducerConfig.BATCH_SIZE_CONFIG, Integer.toString(32*1024)); // 32 KB batch size
 ```
+
+---
+Next: [Producer Default Partitioner & Sticky Partitioner](https://github.com/AbdoMusk/Apache-Kafka/blob/main/5-%20Kafka%20Advanced%20Concepts/2-%20Kafka%20Producers%20Advanced/6-%20Producer%20Default%20Partitioner%20%26%20Sticky%20Partitioner.md)

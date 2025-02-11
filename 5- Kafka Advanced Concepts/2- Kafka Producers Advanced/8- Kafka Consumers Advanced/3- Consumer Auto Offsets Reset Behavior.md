@@ -46,7 +46,7 @@ Replaying data for Consumers
 
 [](#Replaying-data-for-Consumers-2)
 
-You can find [here a CLI tutorial](/kafka/kafka-consumer-group-management-cli-tutorial/) on how to reset consumer offsets.
+You can find [here a CLI tutorial](https://github.com/AbdoMusk/Apache-Kafka/blob/main/3-%20Kafka%20CLI%20Tutorials/5-%20Kafka%20Consumer%20Group%20Management%20CLI%20Tutorial.md) on how to reset consumer offsets.
 
 It is possible to read data whose offsets are earlier than the partition commits. This may be required in unexpected circumstances to recover from errors. To replay data for a consumer group:
 
@@ -74,4 +74,7 @@ Alternative to Using Offsets
 
 As an alternative to using Consumer Groups and offsets, you can manually read from topics using your own strategy using the lower level API such as `.seek()` and `.assign()`
 
-An example of these APIs being used is available in [Java Consumer Seek & Assign](/kafka/java-consumer-seek-and-assign/)
+An example of these APIs being used is available in [Java Consumer Seek & Assign](https://github.com/AbdoMusk/Apache-Kafka/blob/main/4-%20Kafka%20Programming%20Tutorials/Java%20Kafka%20Programming/5-%20Advanced%20Kafka%20Consumer%20Tutorials%20with%20Java/2-%20Java%20Consumer%20Seek%20and%20Assign.md)
+
+---
+Next: [Consumer Read from Closest Replica](https://github.com/AbdoMusk/Apache-Kafka/blob/main/5-%20Kafka%20Advanced%20Concepts/2-%20Kafka%20Producers%20Advanced/8-%20Kafka%20Consumers%20Advanced/4-%20Consumer%20Read%20from%20Closest%20Replica.md)

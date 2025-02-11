@@ -27,3 +27,6 @@ max.block.ms
 [](#max.block.ms-2)
 
 This parameter controls how long the producer will block when calling `send()` and when explicitly requesting metadata via `partitionsFor()`. Those methods block when the producer’s send buffer is full or when metadata is not available. When `max.block.ms` is reached, a timeout exception is thrown. The default value is `60000`.
+
+---
+Next: [Kafka Consumers Advanced](https://github.com/AbdoMusk/Apache-Kafka/tree/main/5-%20Kafka%20Advanced%20Concepts/2-%20Kafka%20Producers%20Advanced/8-%20Kafka%20Consumers%20Advanced)

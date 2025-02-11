@@ -74,3 +74,6 @@ Allowing retries without setting `max.in.flight.requests.per.connection` to 1 wi
 > Setting `max.in.flight.requests.per.connection=1`can significantly decrease your throughput
 
 **VERY important:** if we enable idempotence `enable=idempotence=true`, then it is required for `max.in.flight.requests.per.connection` to be less than or equal to 5 **with message ordering preserved for any allowable value!!**
+
+---
+Next: [Idempotent Kafka Producer](https://github.com/AbdoMusk/Apache-Kafka/blob/main/5-%20Kafka%20Advanced%20Concepts/2-%20Kafka%20Producers%20Advanced/3-%20Idempotent%20Kafka%20Producer.md)

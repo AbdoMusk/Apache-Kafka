@@ -20,3 +20,6 @@ Valid characters for Kafka topics are the ASCII alphanumerics, `.`, `_`, and `-`
 ```
 org.apache.kafka.common.errors.InvalidTopicException: Topic 'test.1' collides with existing topics: test_1
 ```
+
+---
+Next: [Kafka Producers Advanced](https://github.com/AbdoMusk/Apache-Kafka/tree/main/5-%20Kafka%20Advanced%20Concepts/2-%20Kafka%20Producers%20Advanced)

@@ -20,7 +20,7 @@ Kafka brokers splits each partition into **segments**. Each segment is stored in
 
 Kafka Topic Partitions & Segments
 
-Only one segment is ACTIVE at any point in time - the one data is being written to. A segment can only be deleted if it has been closed beforehand. The size of a segment is controlled by two Broker configurations ([which can be modified at the topic level too](/kafka/kafka-topic-configuration-log-retention/))
+Only one segment is ACTIVE at any point in time - the one data is being written to. A segment can only be deleted if it has been closed beforehand. The size of a segment is controlled by two Broker configurations ([which can be modified at the topic level too](https://github.com/AbdoMusk/Apache-Kafka/blob/main/5-%20Kafka%20Advanced%20Concepts/1-%20Kafka%20Topics%20Advanced/3-%20Kafka%20Topic%20Configuration%20Log%20Retention.md))
 
 *   **log.segment.bytes:** the max size of a single segment in bytes (default 1 GB)
     
@@ -86,7 +86,10 @@ Let us review the configurations for segments and learn their importance.
     
     *   When using a time-based segment limit, it is important to consider the impact on disk performance when multiple segments are closed simultaneously.
         
-    *   Decide if you want [daily compaction](/kafka/kafka-topic-configuration-log-compaction/) instead of weekly
+    *   Decide if you want [daily compaction](https://github.com/AbdoMusk/Apache-Kafka/blob/main/5-%20Kafka%20Advanced%20Concepts/1-%20Kafka%20Topics%20Advanced/6-%20Kafka%20Topic%20Configuration%20Log%20Compaction.md) instead of weekly
         
 
 In the next page we will configure Kafka Log Retention.
+
+---
+Next: [Kafka Topic Configuration Log Retention](https://github.com/AbdoMusk/Apache-Kafka/blob/main/5-%20Kafka%20Advanced%20Concepts/1-%20Kafka%20Topics%20Advanced/3-%20Kafka%20Topic%20Configuration%20Log%20Retention.md)

@@ -48,3 +48,6 @@ And to remove it:
 ```
 kafka-configs --bootstrap-server localhost:9092 --alter --entity-type topics --entity-name configured-topic --delete-config unclean.leader.election.enable
 ```
+
+---
+Next: [Kafka Topic Configuration Log Compaction](https://github.com/AbdoMusk/Apache-Kafka/blob/main/5-%20Kafka%20Advanced%20Concepts/1-%20Kafka%20Topics%20Advanced/6-%20Kafka%20Topic%20Configuration%20Log%20Compaction.md)

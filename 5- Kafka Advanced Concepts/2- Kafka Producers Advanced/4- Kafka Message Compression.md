@@ -42,7 +42,7 @@ Producers group messages in a batch before sending. This is done to save network
 
 Message Compression
 
-To increase the efficiency of compression, optimize your [Kafka Producer Batching](/kafka/kafka-producer-batching/).
+To increase the efficiency of compression, optimize your [Kafka Producer Batching](https://github.com/AbdoMusk/Apache-Kafka/blob/main/5-%20Kafka%20Advanced%20Concepts/2-%20Kafka%20Producers%20Advanced/5-%20Kafka%20Producer%20Batching.md).
 
 By enabling compression, you reduce network utilization and storage, which is often a bottleneck when sending messages to Kafka. The compressed batch has the following advantage:
 
@@ -70,3 +70,6 @@ Compression, however, has a small overhead on CPU resources as it involves compr
 Always use compression in production and especially if you have high throughput.
 
 Note: `zstd` compression was introduced after Kafka 2.1.
+
+---
+Next: [Kafka Producer Batching](https://github.com/AbdoMusk/Apache-Kafka/blob/main/5-%20Kafka%20Advanced%20Concepts/2-%20Kafka%20Producers%20Advanced/5-%20Kafka%20Producer%20Batching.md)

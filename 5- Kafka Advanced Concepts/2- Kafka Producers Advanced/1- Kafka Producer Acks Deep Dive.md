@@ -100,7 +100,7 @@ Overriding Topic Configuration Defaults
 
 [](#Overriding-Topic-Configuration-Defaults-2)
 
-Let's see how to change the configuration `min.insync.replicas` of a topic using the CLI tool `kafka-configs`. The default value of this configuration at the broker level is `1`. [As we mentioned before](/kafka/kafka-topic-replication/), a typical value for this configuration is the **replication factor minus 1.** This means with a replication factor of 3, `min.insync.replicas` should be 2.
+Let's see how to change the configuration `min.insync.replicas` of a topic using the CLI tool `kafka-configs`. The default value of this configuration at the broker level is `1`. [As we mentioned before](https://github.com/AbdoMusk/Apache-Kafka/blob/main/1-%20Kafka%20Fundamentals/6-%20Kafka%20Topic%20Replication.md), a typical value for this configuration is the **replication factor minus 1.** This means with a replication factor of 3, `min.insync.replicas` should be 2.
 
 > [!TIP]
 > **CLI Extensions**
@@ -195,3 +195,6 @@ We can delete the dynamic configuration as well:
 ```
 kafka-configs --bootstrap-server localhost:9092 --alter --entity-type brokers --entity-default  --delete-config min.insync.replicas
 ```
+
+---
+Next: [Kafka Producer Retries](https://github.com/AbdoMusk/Apache-Kafka/blob/main/5-%20Kafka%20Advanced%20Concepts/2-%20Kafka%20Producers%20Advanced/2-%20Kafka%20Producer%20Retries.md)

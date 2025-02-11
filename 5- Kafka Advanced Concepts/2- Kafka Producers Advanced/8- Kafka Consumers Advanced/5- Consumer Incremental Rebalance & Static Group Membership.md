@@ -83,3 +83,6 @@ If you specify `group.instance.id` it makes the consumer a static member: upon l
 This is helpful when consumers maintain local state and cache (to avoid re-building the cache) and when doing rolling restarts without wanting to trigger a rebalance.
 
 ![Static Group Membership](../../../static/images/Static_Group_Membership.webp "Static Group Membership")
+
+---
+Next: [Kafka Administration](https://github.com/AbdoMusk/Apache-Kafka/tree/main/6-%20Kafka%20Administration)

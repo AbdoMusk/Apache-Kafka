@@ -76,3 +76,6 @@ The latency is smaller:
 And the latency in noticeably lower the more partitions you have.
 
 ![Apache Kafka Sticky Partitioner chart showing improved performance](../../static/images/Sticky_Partitioner_Latency_2.webp "Sticky Partitioner delivers lower latency")
+
+---
+Next: [Other Advanced Kafka Producer Configurations](https://github.com/AbdoMusk/Apache-Kafka/blob/main/5-%20Kafka%20Advanced%20Concepts/2-%20Kafka%20Producers%20Advanced/7-%20Other%20Advanced%20Kafka%20Producer%20Configurations.md)

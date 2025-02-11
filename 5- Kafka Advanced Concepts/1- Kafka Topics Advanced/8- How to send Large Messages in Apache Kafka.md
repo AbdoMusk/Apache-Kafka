@@ -105,3 +105,6 @@ Or in your Java code:
 ```
 properties.setProperty(ProducerConfig.MAX_REQUEST_SIZE_CONFIG, "10485880");
 ```
+
+---
+Next: [Kafka Topic Naming Conventions](https://github.com/AbdoMusk/Apache-Kafka/blob/main/5-%20Kafka%20Advanced%20Concepts/1-%20Kafka%20Topics%20Advanced/9-%20Kafka%20Topic%20Naming%20Conventions.md)

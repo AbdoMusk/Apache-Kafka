@@ -82,17 +82,17 @@ All of these parameters are discussed in the [Kafka Producer Documentation](http
 
 In this section, we will discuss some of the ones we judge are the most important:
 
-*   [Kafka Producer Acks Deep Dive](/kafka/kafka-producer-acks-deep-dive/)
+*   [Kafka Producer Acks Deep Dive](https://github.com/AbdoMusk/Apache-Kafka/blob/main/5-%20Kafka%20Advanced%20Concepts/2-%20Kafka%20Producers%20Advanced/1-%20Kafka%20Producer%20Acks%20Deep%20Dive.md)
     
-*   [Kafka Producer Retries](/kafka/kafka-producer-retries/)
+*   [Kafka Producer Retries](https://github.com/AbdoMusk/Apache-Kafka/blob/main/5-%20Kafka%20Advanced%20Concepts/2-%20Kafka%20Producers%20Advanced/2-%20Kafka%20Producer%20Retries.md)
     
-*   [Idempotent Kafka Producer](/kafka/idempotent-kafka-producer/)
+*   [Idempotent Kafka Producer](https://github.com/AbdoMusk/Apache-Kafka/blob/main/5-%20Kafka%20Advanced%20Concepts/2-%20Kafka%20Producers%20Advanced/3-%20Idempotent%20Kafka%20Producer.md)
     
-*   [Kafka Message Compression](/kafka/kafka-message-compression/)
+*   [Kafka Message Compression](https://github.com/AbdoMusk/Apache-Kafka/blob/main/5-%20Kafka%20Advanced%20Concepts/2-%20Kafka%20Producers%20Advanced/4-%20Kafka%20Message%20Compression.md)
     
-*   [Kafka Producer Batching](/kafka/kafka-producer-batching/)
+*   [Kafka Producer Batching](https://github.com/AbdoMusk/Apache-Kafka/blob/main/5-%20Kafka%20Advanced%20Concepts/2-%20Kafka%20Producers%20Advanced/5-%20Kafka%20Producer%20Batching.md)
     
-*   [Other Advanced Kafka Producer Configurations](/kafka/other-advanced-kafka-producer-configurations/)
+*   [Other Advanced Kafka Producer Configurations](https://github.com/AbdoMusk/Apache-Kafka/blob/main/5-%20Kafka%20Advanced%20Concepts/2-%20Kafka%20Producers%20Advanced/7-%20Other%20Advanced%20Kafka%20Producer%20Configurations.md)
     
 
 **Happy learning!**

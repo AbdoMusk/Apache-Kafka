@@ -66,3 +66,6 @@ If you already use `acks=all` then you should enable this feature. All you need 
 ```
 
 Overall, we recommend to enable producer idempotence for all your Kafka Producers. If you are not using the Java SDK by default, ensure your client library has support for this feature!
+
+---
+Next: [Kafka Message Compression](https://github.com/AbdoMusk/Apache-Kafka/blob/main/5-%20Kafka%20Advanced%20Concepts/2-%20Kafka%20Producers%20Advanced/4-%20Kafka%20Message%20Compression.md)

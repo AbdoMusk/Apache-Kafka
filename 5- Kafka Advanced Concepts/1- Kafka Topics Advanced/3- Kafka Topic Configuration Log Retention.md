@@ -78,3 +78,6 @@ To set these configurations, the following command will help:
 ```
 kafka-configs --bootstrap-server localhost:9092 --alter --entity-type topics --entity-name configured-topic --add-config retention.ms=-1,retention.bytes=524288000
 ```
+
+---
+Next: [Kafka Topic Configuration Minimum In-Sync Replicas](https://github.com/AbdoMusk/Apache-Kafka/blob/main/5-%20Kafka%20Advanced%20Concepts/1-%20Kafka%20Topics%20Advanced/4-%20Kafka%20Topic%20Configuration%20Minimum%20In-Sync%20Replicas.md)

@@ -31,4 +31,6 @@ To setup, you must set the following settings:
 *   Set `client.rack` to the data centre ID the consumer is launched on
     
 *   Example for AWS `client.rack=usw2-az1`
-    
+
+---
+Next: [Consumer Incremental Rebalance & Static Group Membership](https://github.com/AbdoMusk/Apache-Kafka/blob/main/5-%20Kafka%20Advanced%20Concepts/2-%20Kafka%20Producers%20Advanced/8-%20Kafka%20Consumers%20Advanced/5-%20Consumer%20Incremental%20Rebalance%20%26%20Static%20Group%20Membership.md)

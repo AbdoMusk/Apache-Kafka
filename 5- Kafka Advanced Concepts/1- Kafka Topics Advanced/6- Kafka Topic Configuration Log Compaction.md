@@ -18,7 +18,7 @@ Kafka stores messages for a set amount of time and purge messages older than the
 
 *   `**log.cleanup.policy=delete**`
     
-    This is the default for all the user topics. With this policy configured for a topic, Kafka deletes events older than the configured retention time. The default retention period is a week. Log Cleanup Policy delete has [already been discussed here](/kafka/kafka-topic-configuration-log-retention/).
+    This is the default for all the user topics. With this policy configured for a topic, Kafka deletes events older than the configured retention time. The default retention period is a week. Log Cleanup Policy delete has [already been discussed here](https://github.com/AbdoMusk/Apache-Kafka/blob/main/5-%20Kafka%20Advanced%20Concepts/1-%20Kafka%20Topics%20Advanced/3-%20Kafka%20Topic%20Configuration%20Log%20Retention.md).
     
 *   `**log.cleanup.policy=compact**`
     
@@ -253,3 +253,6 @@ Stephane,salary: 0
 ```
 
 Log compaction will take place in the background automatically. We cannot trigger it explicitly. However, we can control how often it is triggered with the log compaction properties.
+
+---
+Next: [Kafka Topics Choosing the Replication Factor and Partition Count](https://github.com/AbdoMusk/Apache-Kafka/blob/main/5-%20Kafka%20Advanced%20Concepts/1-%20Kafka%20Topics%20Advanced/7-%20Kafka%20Topics%20Choosing%20the%20Replication%20Factor%20and%20Partition%20Count.md)

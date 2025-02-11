@@ -24,7 +24,7 @@ The parameters you will set will impact topic performance and behavior (we discu
 
 The complete list of topic configurations can be found at: [https://kafka.apache.org/documentation/#topicconfigs](https://kafka.apache.org/documentation/#topicconfigs)
 
-And we discuss some important topic configurations in [the next page](/kafka/kafka-topic-configuration-unclean-leader-election/).
+And we discuss some important topic configurations in [the next page](https://github.com/AbdoMusk/Apache-Kafka/blob/main/5-%20Kafka%20Advanced%20Concepts/1-%20Kafka%20Topics%20Advanced/5-%20Kafka%20Topic%20Configuration%20Unclean%20Leader%20Election.md).
 
 * * *
 
@@ -38,7 +38,7 @@ Overriding Kafka Topic Configuration Defaults
 >
 > kafka-configs is the tool that allows you to set configurations for specific topics
 
-Let's see how to change the configuration `min.insync.replicas` of a topic using the CLI tool `kafka-configs`. The default value of this configuration at the broker level is `1`. As [we mentioned before](/kafka/kafka-topic-replication/), a typical value for this configuration is the **replication factor minus 1.** This means with a replication factor of 3, `min.insync.replicas` should be 2.
+Let's see how to change the configuration `min.insync.replicas` of a topic using the CLI tool `kafka-configs`. The default value of this configuration at the broker level is `1`. As [we mentioned before](https://github.com/AbdoMusk/Apache-Kafka/blob/main/1-%20Kafka%20Fundamentals/6-%20Kafka%20Topic%20Replication.md), a typical value for this configuration is the **replication factor minus 1.** This means with a replication factor of 3, `min.insync.replicas` should be 2.
 
 > [!TIP]
 > **CLI Extensions**
@@ -93,3 +93,6 @@ kafka-configs --bootstrap-server localhost:9092 --alter --entity-type topics --e
 ```
 
 Describe the topic to make sure the configuration override has been removed.
+
+---
+Next: [Kafka Topic Internals Segments and Indexes](https://github.com/AbdoMusk/Apache-Kafka/blob/main/5-%20Kafka%20Advanced%20Concepts/1-%20Kafka%20Topics%20Advanced/2-%20Kafka%20Topic%20Internals%20Segments%20and%20Indexes.md)

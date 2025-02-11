@@ -46,7 +46,7 @@ There are several factors to consider when choosing the number of partitions:
     
     *   Each partition will have a partition leader to be elected by Zookeeper. Hence there will be more load on Zookeeper which will increase the time for leader elections.
         
-    *   This problem is going to be solved in a Zookeeper-less Kafka, which can you can [learn about here](/kafka/kafka-kraft-mode/) and [practice while starting Kafka](/kafka/starting-kafka/).
+    *   This problem is going to be solved in a Zookeeper-less Kafka, which can you can [learn about here](https://github.com/AbdoMusk/Apache-Kafka/blob/main/1-%20Kafka%20Fundamentals/8-%20Kafka%20KRaft%20Mode.md) and [practice while starting Kafka](/kafka/starting-kafka/).
         
     *   More files opened by Kafka. There is an OS limit to the number of files that can be opened, although you can and should change it to a high value on your OS settings.
         
@@ -103,7 +103,7 @@ The appropriate size for a Kafka cluster is determined by several factors. Follo
 
 *   A Kafka cluster should have a **_maximum of_** [**_200,000 partitions_**](https://blogs.apache.org/kafka/entry/apache-kafka-supports-more-partitions) across all brokers when managed by Zookeeper. The reason is that if brokers go down, Zookeeper needs to perform **_a lot_** **of** **_leader elections_**. Confluent still recommends up to 4,000 partitions per broker in your cluster.
     
-*   This problem should be solved by Kafka in a Zookeeper-less mode ([Kafka KRaft](/kafka/kafka-kraft-mode/))
+*   This problem should be solved by Kafka in a Zookeeper-less mode ([Kafka KRaft](https://github.com/AbdoMusk/Apache-Kafka/blob/main/1-%20Kafka%20Fundamentals/8-%20Kafka%20KRaft%20Mode.md))
     
 *   If you need more than 200,000 partitions in your cluster, follow the **_Netflix model_** and create more Kafka clusters
     
@@ -112,3 +112,6 @@ The appropriate size for a Kafka cluster is determined by several factors. Follo
 > **Testing. Testing.**
 >
 > Start at a reasonable number and test the performance
+
+---
+Next: [How to send Large Messages in Apache Kafka](https://github.com/AbdoMusk/Apache-Kafka/blob/main/5-%20Kafka%20Advanced%20Concepts/1-%20Kafka%20Topics%20Advanced/8-%20How%20to%20send%20Large%20Messages%20in%20Apache%20Kafka.md)

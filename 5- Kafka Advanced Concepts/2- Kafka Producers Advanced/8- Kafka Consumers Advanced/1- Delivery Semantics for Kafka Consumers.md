@@ -90,3 +90,6 @@ This means that to be in an "at-least-once" processing use case (the most desira
 In that (rare) case, you must disable `enable.auto.commit`, and most likely most processing to a separate thread, and then from time to time call `.commitSync()` or `.commitAsync()`with the correct offsets manually.
 
 This complicated use case is discussed in the [Kafka Consumer Documentation](https://kafka.apache.org/30/javadoc/org/apache/kafka/clients/consumer/KafkaConsumer.html) under the section "Automatic Offset Committing".
+
+---
+Next: [Kafka Consumer Important Settings Poll and Internal Threads Behavior](https://github.com/AbdoMusk/Apache-Kafka/blob/main/5-%20Kafka%20Advanced%20Concepts/2-%20Kafka%20Producers%20Advanced/8-%20Kafka%20Consumers%20Advanced/2-%20Kafka%20Consumer%20Important%20Settings%20Poll%20and%20Internal%20Threads%20Behavior.md)

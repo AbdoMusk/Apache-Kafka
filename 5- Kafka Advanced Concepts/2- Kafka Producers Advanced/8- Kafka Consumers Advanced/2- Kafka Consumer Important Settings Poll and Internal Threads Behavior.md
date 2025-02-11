@@ -156,3 +156,6 @@ Default Value
 The default value of `max.poll.records` is 500
 
 This setting does not impact the underlying fetching behavior. The consumer will cache the records from each fetch request and returns them incrementally from each poll.
+
+---
+Next: [Consumer Auto Offsets Reset Behavior](https://github.com/AbdoMusk/Apache-Kafka/blob/main/5-%20Kafka%20Advanced%20Concepts/2-%20Kafka%20Producers%20Advanced/8-%20Kafka%20Consumers%20Advanced/3-%20Consumer%20Auto%20Offsets%20Reset%20Behavior.md)
