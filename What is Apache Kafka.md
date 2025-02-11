@@ -11,11 +11,11 @@ Apache Kafka is used by thousands of the world's leading organizations for high-
 
 In this 3 part introductory series, you will learn:
 
-*   [What Apache Kafka is and where it came from](#part-1-data-integration-challenges)
+*   [What Apache Kafka is and where it came from](https://www.conduktor.io/kafka/what-is-apache-kafka#Part-1:-Data-Integration-Challenges)
     
-*   [What the main components of Apache Kafka are](#part-2-definition-of-core-apache-kafka-concepts)
+*   [What the main components of Apache Kafka are](https://www.conduktor.io/kafka/what-is-apache-kafka#Part-2:-Defintion-of-Core-Apache-Kafka-Concepts)
     
-*   [What the Apache Kafka ecosystem is](#part-3-the-kafka-ecosystem)
+*   [What the Apache Kafka ecosystem is](https://www.conduktor.io/kafka/what-is-apache-kafka#Part-3:-The-Kakfa-Ecosystem)
     
 
 By the end, you will confidently understand Apache Kafka and its place in the data streaming world.
@@ -28,6 +28,8 @@ Looking for a headstart on Apache Kafka? The Conduktor Platform is the ultimate 
 
 Part 1: Data Integration Challenges
 -----------------------------------
+
+[](#Part-1:-Data-Integration-Challenges-0)
 
 Context
 
@@ -165,6 +167,8 @@ Unknown to many, Kafka is at the core of lots of the services we enjoy on a dail
 Part 2: Definition of Core Apache Kafka Concepts
 ------------------------------------------------
 
+[](#Part-2:-Definition-of-Core-Apache-Kafka-Concepts-9)
+
 Now that we've learned about Apache Kafka at a high level, let's dive in and learn how to use the tool. In this part, we will cover the basics of Kafka topics, producers, and consumers.
 
 ![Apache Kafka Components. An overview of the relationship between Kafka clusters, Kafka topics, Kafka producers and Kafka Consumers.](./static/images/Producer_-_Topic_-_Consumer.webp "What is Apache Kafka - Producers, Topics and Consumers")
@@ -178,7 +182,7 @@ Kafka topics organize related events. For example, we may have a topic called **
 
 Kafka Topics
 
-Read more in [Kafka Topics, Partitions & Offsets page](/kafka/kafka-topics/).
+Read more in [Kafka Topics, Partitions & Offsets page](https://github.com/AbdoMusk/Apache-Kafka/blob/main/1-%20Kafka%20Fundamentals/1-%20Kafka%20Topics.md).
 
 What is a Kafka Producer?
 -------------------------
@@ -191,7 +195,7 @@ Note that Kafka producers are deployed outside Kafka and only interact with Apac
 
 Kafka Producers
 
-Read more in [Kafka Producers](/kafka/kafka-producers/).
+Read more in [Kafka Producers](https://github.com/AbdoMusk/Apache-Kafka/blob/main/1-%20Kafka%20Fundamentals/2-%20Kafka%20Producers.md).
 
 What is a Kafka Consumer?
 -------------------------
@@ -202,10 +206,12 @@ Once a topic has been created and data produced into the topic, we can have appl
 
 Note that Kafka consumers are deployed outside Kafka and only interact with Apache Kafka by reading data directly from Kafka topics.
 
-Read more in [Kafka Consumers](/kafka/kafka-consumers/).
+Read more in [Kafka Consumers](https://github.com/AbdoMusk/Apache-Kafka/blob/main/1-%20Kafka%20Fundamentals/3-%20Kafka%20Consumers.md).
 
 Part 3: The Kafka Ecosystem
 ---------------------------
+
+[](#Part-3:-The-Kafka-Ecosystem-13)
 
 A number of additional tools and libraries have been developed for Kafka over the years to expand its functionality. In this section, we'll look at some of the most popular parts of the wider Kafka ecosystem.
 
@@ -296,3 +302,6 @@ We hope that this page allowed you to learn about Apache Kafka and its ecosystem
 If you would like to start using Apache Kafka, we recommend you simply keep on reading these lessons in the order outlined and let us guide you in your Apache Kafka journey!
 
 Happy learning :)
+
+---
+Next: [Kafka Fundamentals](https://github.com/AbdoMusk/Apache-Kafka/tree/main/1-%20Kafka%20Fundamentals)
