@@ -21,3 +21,6 @@ This section represents concepts you will need to master as you start creating a
     
 
 Happy learning!
+
+---
+Next: [Kafka Broker & Client Upgrades](https://github.com/AbdoMusk/Apache-Kafka/blob/main/6-%20Kafka%20Administration/1-%20Kafka%20Broker%20%26%20Client%20Upgrades.md)
