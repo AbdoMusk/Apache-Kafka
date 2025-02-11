@@ -23,4 +23,4 @@ In this section we will learn about some of the most used CLI tools in Kafka:
 Happy learning!
 
 ---
-Next: [Kafka Producers](https://github.com/AbdoMusk/Apache-Kafka/blob/main/3-%20Kafka%20CLI%20Tutorials/1-%20Kafka%20Topics%20CLI%20Tutorial.md)
+Next: [Kafka Topics CLI Tutorial](https://github.com/AbdoMusk/Apache-Kafka/blob/main/3-%20Kafka%20CLI%20Tutorials/1-%20Kafka%20Topics%20CLI%20Tutorial.md)
