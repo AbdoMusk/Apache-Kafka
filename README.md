@@ -3,8 +3,6 @@ Learn Apache Kafka like never before
 
 Conduktor Kafkademy is the quickest, easiest and most effective way for you to learn Apache Kafka for free.
 
-.
-
 [Go to first lesson](https://github.com/AbdoMusk/Apache-Kafka/blob/main/What%20is%20Apache%20Kafka.md)
 
 Learn Apache Kafka at Every Level
@@ -30,17 +28,13 @@ Join our community
 ------------------
 
 *   
-    ![GitHub](/kafka/svgs/community/github.svg)
-    
-    [**GitHub**](https://github.com/conduktor)
+    ![GitHub](https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/colored/github.svg) [**GitHub**](https://github.com/conduktor)
     
     Follow along and contribute to the development of Conduktor Open-Source.
     
 *   
     
-    ![Slack](/kafka/svgs/community/slack.svg)
-    
-    [**Slack**](https://conduktor.io/slack)
+    ![Slack](https://learn.conduktor.io/kafka/svgs/community/slack.svg) [**Slack**](https://conduktor.io/slack)
     
     Join our friendly community of builders and developers on Slack to help and show off what you built
     
