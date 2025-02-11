@@ -74,7 +74,7 @@ Each of the applications in an organization where data is created is a potential
 
 Apache Kafka is used to store these data streams (also called topics), which then allows systems to perform stream processing - an act of performing continual calculations on a potentially endless and constantly evolving source of data. Once the stream is processed and stored in Apache Kafka, it may be transferred to another system, e.g., a database.
 
-![Apache Kafka allows for data from various different business applications and sources to flow into a real-time data pipeline that can process millions of events per second.](./static/images/What_is_Apache_Kafka_Part_1_-_Use_Cases_and_Applications "What is Apache Kafka Part 1 - Use Cases & Applications")
+![Apache Kafka allows for data from various different business applications and sources to flow into a real-time data pipeline that can process millions of events per second.](./static/images/What_is_Apache_Kafka_Part_1_-_Use_Cases_and_Applications.webp "What is Apache Kafka Part 1 - Use Cases & Applications")
 
 Examples of Data streams
 ------------------------
