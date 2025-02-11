@@ -1,11 +1,13 @@
-[Beginner](https://github.com/AbdoMusk/Apache-Kafka/blob/main/1-%20Kafka%20Fundamentals/1-%20Kafka%20Topics.md)
 
-[Advanced](https://github.com/AbdoMusk/Apache-Kafka/tree/main/5-%20Kafka%20Advanced%20Concepts/1-%20Kafka%20Topics%20Advanced#kafka-topics-advanced)
 
 Kafka Topics Advanced
 =====================
 
 Deep dive on Kafka Topics
+
+[Beginner](https://github.com/AbdoMusk/Apache-Kafka/blob/main/1-%20Kafka%20Fundamentals/1-%20Kafka%20Topics.md)
+
+[Advanced](https://github.com/AbdoMusk/Apache-Kafka/tree/main/5-%20Kafka%20Advanced%20Concepts/1-%20Kafka%20Topics%20Advanced#kafka-topics-advanced)
 
 * * *
 
@@ -31,3 +33,7 @@ In this section, we will do a deep dive on Kafka internals and understand some i
     
 
 Happy learning!
+
+
+---
+Next: [How to change a Kafka Topic Configuration using the CLI?](https://github.com/AbdoMusk/Apache-Kafka/blob/main/5-%20Kafka%20Advanced%20Concepts/1-%20Kafka%20Topics%20Advanced/1-%20How%20to%20change%20a%20Kafka%20Topic%20Configuration%20using%20the%20CLI.md)
