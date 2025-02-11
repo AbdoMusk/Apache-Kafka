@@ -18,3 +18,6 @@ There are several ways to start Kafka, and we will provide instructions for the 
 *   [Windows](https://github.com/AbdoMusk/Apache-Kafka/blob/main/2-%20Starting%20Kafka/7-%20How%20to%20Install%20Apache%20Kafka%20on%20Windows.md)
     
 *   [Docker (platform agnostic](/kafka/how-to-start-kafka-using-docker/))
+
+---
+Next: [How to Start Kafka with Conduktor?](https://github.com/AbdoMusk/Apache-Kafka/blob/main/2-%20Starting%20Kafka/1-%20How%20to%20Start%20Kafka%20with%20Conduktor.md)
